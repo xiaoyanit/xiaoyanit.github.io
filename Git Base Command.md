@@ -9,10 +9,10 @@ Git 基本配置
 com from : http://magicalboy.com/git-configuration/
 1.用户信息配置
 
-	git config --global user.name "xiaoyan"
-	git config --global user.email xiaoyan@gmail.com
+	$ git config --global user.name "xiaoyan"
+	$ git config --global user.email xiaoyan@gmail.com
 
-	git config --list
+	$ git config --list
 
 2.文本编辑器
 	在需要输入必要的文本信息时调用，比如提交更新时忘了加注释。一般情况会用系统默认的编辑器，比如Vi、Vim。当然也可以自定：
