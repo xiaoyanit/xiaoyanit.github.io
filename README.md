@@ -12,8 +12,6 @@ come from : http://www.ibm.com/developerworks/cn/java/j-rtj/?ca=j-h-p
 
 第 1 部分，使用 Java 语言编写实时系统 
 
-'Class'
-
 第 2 部分，比较编译技术
 
 第 3 部分，线程化和同步 
