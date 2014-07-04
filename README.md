@@ -1,79 +1,40 @@
-xiaoyanit.github.io
-===================
+# Jekyll-Bootstrap
 
-My github blog .....
+The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
 
+## Usage
 
-Java First
-[Something about java improve, come on with me body ... ^_^ ]
+For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-1.实时 Java 系列
-come from : http://www.ibm.com/developerworks/cn/java/j-rtj/?ca=j-h-p
+## Version
 
-第 1 部分，使用 Java 语言编写实时系统 
+0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
 
-第 2 部分，比较编译技术
+**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
+However, the actual API has not changed at all.
+You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
 
-第 3 部分，线程化和同步 
+## Contributing
 
-第 4 部分，实时垃圾收集 
 
-第 5 部分，编写和部署实时 Java 应用程序 
+To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
+This is very important as it allows me to accept your pull request without having to publish a public version release.
 
-第 6 部分，简化实时 Java 开发
+Small, atomic Features, bugs, etc.
+Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
+Please rebase as often as possible when working.
+Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
 
+For Big Features or major API extensions/edits:
+This is the one case where I'll accept pull-requests based off the master branch.
+This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
+Translation : it might take a bit longer so please be patient! (but sincerely thank you).
 
+**Jekyll-Bootstrap Documentation Website.**
 
+The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
 
 
+## License
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[MIT](http://opensource.org/licenses/MIT)
