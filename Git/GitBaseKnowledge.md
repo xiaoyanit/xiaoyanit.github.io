@@ -13,3 +13,7 @@ Git远程操作详解
 
 OSChina Git 中指南
 http://git.oschina.net/progit/
+
+Git教程
+
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
