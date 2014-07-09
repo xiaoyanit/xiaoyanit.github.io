@@ -10,3 +10,6 @@ Git远程操作详解
 	*git fetch
 	*git pull
 	*git push
+
+OSChina Git 中指南
+http://git.oschina.net/progit/
