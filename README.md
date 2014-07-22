@@ -24,8 +24,23 @@ come from : [IBM_Java](http://www.ibm.com/developerworks/cn/java/j-rtj/?ca=j-h-p
 第 6 部分，简化实时 Java 开发
 
 
+>This is a simple code by html style
 
 
+<p>That's some text with a footnote.
+   <sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup></p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-1">
+<p>And that's the footnote.
+   <a href="#fnref-1" class="footnote-backref">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
 
 
 
