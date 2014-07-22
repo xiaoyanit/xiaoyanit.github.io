@@ -6,7 +6,7 @@ My github blog .....
 
 Java First
 
-[Something about java improve, come on with me body ... ^_^ ]
+`come on with me  ... ^_^` 
 
 1.实时 Java 系列
 come from : [IBM_Java](http://www.ibm.com/developerworks/cn/java/j-rtj/?ca=j-h-p)
