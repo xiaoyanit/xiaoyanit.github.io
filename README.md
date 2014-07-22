@@ -55,7 +55,7 @@ come from : [IBM_Java](http://www.ibm.com/developerworks/cn/java/j-rtj/?ca=j-h-p
 | Pipe      |    1 USD | 234  |
 
 
-[Markdown_语法](https://raw.githubusercontent.com/xiaoyanit/xiaoyanit.github.io/master/images/mark_syntx.png)
+![Markdown_语法](https://raw.githubusercontent.com/xiaoyanit/xiaoyanit.github.io/master/images/mark_syntx.png)
 
 
 
