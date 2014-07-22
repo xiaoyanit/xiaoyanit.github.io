@@ -5,22 +5,23 @@ My github blog .....
 
 
 Java First
+
 [Something about java improve, come on with me body ... ^_^ ]
 
-1.ÊµÊ± Java ÏµÁĞ
-come from : http://www.ibm.com/developerworks/cn/java/j-rtj/?ca=j-h-p
+1.å®æ—¶ Java ç³»åˆ—
+come from : [IBM_Java](http://www.ibm.com/developerworks/cn/java/j-rtj/?ca=j-h-p)
 
-µÚ 1 ²¿·Ö£¬Ê¹ÓÃ Java ÓïÑÔ±àĞ´ÊµÊ±ÏµÍ³ 
+ç¬¬ 1 éƒ¨åˆ†ï¼Œä½¿ç”¨ Java è¯­è¨€ç¼–å†™å®æ—¶ç³»ç»Ÿ 
 
-µÚ 2 ²¿·Ö£¬±È½Ï±àÒë¼¼Êõ
+ç¬¬ 2 éƒ¨åˆ†ï¼Œæ¯”è¾ƒç¼–è¯‘æŠ€æœ¯
 
-µÚ 3 ²¿·Ö£¬Ïß³Ì»¯ºÍÍ¬²½ 
+ç¬¬ 3 éƒ¨åˆ†ï¼Œçº¿ç¨‹åŒ–å’ŒåŒæ­¥ 
 
-µÚ 4 ²¿·Ö£¬ÊµÊ±À¬»øÊÕ¼¯ 
+ç¬¬ 4 éƒ¨åˆ†ï¼Œå®æ—¶åƒåœ¾æ”¶é›† 
 
-µÚ 5 ²¿·Ö£¬±àĞ´ºÍ²¿ÊğÊµÊ± Java Ó¦ÓÃ³ÌĞò 
+ç¬¬ 5 éƒ¨åˆ†ï¼Œç¼–å†™å’Œéƒ¨ç½²å®æ—¶ Java åº”ç”¨ç¨‹åº 
 
-µÚ 6 ²¿·Ö£¬¼ò»¯ÊµÊ± Java ¿ª·¢
+ç¬¬ 6 éƒ¨åˆ†ï¼Œç®€åŒ–å®æ—¶ Java å¼€å‘
 
 
 
