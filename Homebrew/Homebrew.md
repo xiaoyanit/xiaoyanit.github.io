@@ -150,13 +150,62 @@ Original code by Max Howell. Website by Rémi Prévost.
 [Homebrew: OS X’s Missing Package Manager](http://www.engineyard.com/blog/2010/homebrew-os-xs-missing-package-manager/)
 
 
-
-
-
-
-
-
 @BY xiaoyan
 
 参考资料
 [Ruby系列文章之6 ---OS X 10.8.1 系统 HomeBrew的安装和简单使用](http://blog.csdn.net/maojudong/article/details/7918291)
+
+
+## [菜鸟级 Mac 配置（二）](http://jianshu.io/p/dee28486b465) ##
+
+- **oh-my-zsh**
+
+Mac 自带了很多 Shell，通过下面的命令：
+	
+	cat /etc/shells
+可以看到如下列表：
+	
+	/bin/bash
+	/bin/csh
+	/bin/ksh
+	/bin/sh
+	/bin/tcsh
+	/bin/zsh
+系统默认的是 bash，但 zsh 才是其中最犀利的，被称为「终极 Shell」。而且一位国外特别有（wu）才（liao）的程序员为 zsh 量身定做了一套配置方案叫 oh-my-zsh，实在是对我等小白用心良苦，我不能辜负他的这片心意啊。
+
+首先，通过
+
+	chsh -s /bin/zsh\
+
+把默认 Shell 换为 zsh。然后用下面的两句（任选其一）可以自动安装 oh-my-zsh：
+
+`curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh`
+
+`wget --no-check-certificate https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh`
+
+
+
+剩下的配置就参考池老师的文章—— [终极 Shell](http://macshuo.com/?p=676)
+
+
+
+- **iTerm2**
+
+和 zsh 配合起来，特别酷炫！发现些小功能确实酷炫：
+
+
+
+1. 分窗口操作：shift+command+d（横向）command+d（竖向）
+2. 查找和粘贴：command+f，呼出查找功能，tab 键选中找到的文本，option+enter 粘贴 
+3. 自动完成：command+ 根据上下文呼出自动完成窗口，上下键选择
+4. 粘贴历史：shift+command+h
+5. 回放功能：option+command+b
+6. 全屏：command+enter
+7. 光标去哪了？ command+/
+8. Expose Tabs：option+command+e
+
+
+
+下图是有多标签页和多窗口的 iTerm2：
+
+![](http://myblogimage.qiniudn.com/illustration%5C%E8%8F%9C%E9%B8%9F%E7%BA%A7Mac%E9%85%8D%E7%BD%AE%5CScreen%20Shot%202014-02-26%20at%205.53.11%20PM.png)
