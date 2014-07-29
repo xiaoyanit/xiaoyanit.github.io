@@ -1,5 +1,400 @@
-ÎÄ¼ş ÙYÔ´ »ØˆóåeÕ`
-MarkdownÎÄ¼ş
+##What is Markdown?##
+
+
+Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
+
+You can use Markdown most places around GitHub:
+
+
+
+- Gists
+- Comments in Issues and Pull Requests
+- Files with the `.md` or `.markdown` extension
+
+
+
+##Examples##
+
+###[Text](#)###
+
+	It's very easy to make some words **bold** and other 
+	words *italic* with Markdown. You can even
+	[link to Google!](http://google.com).
+
+It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com).
+
+
+
+###[Lists](#)###
+	Sometimes you want numbered lists:
+	
+	1. One
+	2. Two
+	3. Three
+	
+	Sometimes you want bullet points:
+	
+	* Start a line with a star
+	* Profit!
+	
+	Alternatively,
+	
+	- Dashes work just as well
+	- And if you have sub points, put two spaces before the dash or star:
+	  - Like this
+	  - And this
+
+Sometimes you want numbered lists:
+
+1. One
+2. Two
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+Alternatively,
+
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
+
+###[Images](#)###
+	If you want to embed images, this is how you do it:
+	
+	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+###[Headers & Quotes](#)###
+
+
+
+	# Structured documents
+
+	Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
+
+	### This is a third-tier heading
+
+	You can use  one `#` all the way up to `######` six for different heading sizes.
+
+	If you'd like to quote someone, use the > character before the line:
+
+	> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
+	> - Captain Janeway
+
+# Structured documents
+
+Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
+
+### This is a third-tier heading
+
+You can use  one `#` all the way up to `######` six for different heading sizes.
+
+If you'd like to quote someone, use the > character before the line:
+
+> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
+> - Captain Janeway
+
+###[Code](#)###
+
+	here are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
+	
+	    if (isAwesome){
+	      return true
+	    }
+	
+	GitHub also supports something called code fencing, which allows for multiple lines without indentation:
+	
+	```
+	if (isAwesome){
+	  return true
+	}
+	```
+	
+	And if you'd like to use syntax highlighting, include the language:
+	
+	```javascript
+	if (isAwesome){
+	  return true
+	}
+	```
+
+here are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
+
+    if (isAwesome){
+      return true
+    }
+
+GitHub also supports something called code fencing, which allows for multiple lines without indentation:
+
+```
+if (isAwesome){
+  return true
+}
+```
+
+And if you'd like to use syntax highlighting, include the language:
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+
+###[Extras](#)###
+
+
+	GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath â€” love your sweater!
+	
+	But I have to admit, tasks lists are my favorite:
+	
+	- [x] This is a complete item
+	- [ ] This is an incomplete item
+	
+	And, of course emoji! :sparkles: :camel: :boom:
+
+
+GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath â€” love your sweater!
+
+But I have to admit, tasks lists are my favorite:
+
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+And, of course emoji! :sparkles: :camel: :boom:
+
+
+
+[è¡¨æƒ…æ”¯æŒ(github.com)]( http://www.emoji-cheat-sheet.com/)
+
+
+
+
+#Syntax guide#
+-------------------------------------------------------
+#####Hereâ€™s an overview of Markdown syntax that you can use anywhere on GitHub.com or in your own text files.
+
+###Headers
+
+	# This is an <h1> tag
+	## This is an <h2> tag
+	###### This is an <h6> tag
+ 
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
+
+
+
+##Emphasis
+
+	*This text will be italic*
+	_This will also be italic_
+	
+	**This text will be bold**
+	__This will also be bold__
+	
+	*You **can** combine them*
+
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+*You **can** combine them*
+
+
+
+##Lists
+	
+#####Unordered
+	
+	* Item 1
+	* Item 2
+	  * Item 2a
+	  * Item 2b
+#####Ordered
+	
+	1. Item 1
+	2. Item 2
+	3. Item 3
+	   * Item 3a
+	   * Item 3b
+
+
+#####Unordered
+
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+#####Ordered
+
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
+
+###Images
+
+	![GitHub Logo](/images/logo.png)
+	Format: ![Alt Text](url)
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+
+
+##Links
+
+	http://github.com - automatic!
+	[GitHub](http://github.com)
+
+http://github.com - automatic!
+[GitHub](http://github.com)
+
+##Blockquotes
+
+	As Kanye West said:
+	
+	> We're living the future so
+	> the present is our past.
+
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+
+##Inline code
+
+	I think you should use an
+	`<addr>` element here instead.
+
+I think you should use an
+`<addr>` element here instead.
+
+
+
+##GitHub Flavored Markdown
+
+######GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.
+
+######Note that some features of GitHub Flavored Markdown are only available in the descriptions and comments of Issues and Pull Requests. These include @mentions as well as references to SHA-1 hashes, Issues, and Pull Requests. Task Lists are also available in Gist comments and in Gist Markdown files.
+
+###Syntax highlighting
+
+
+Hereâ€™s an example of how you can use syntax highlighting with [GitHub Flavored Markdown:](https://help.github.com/articles/github-flavored-markdown)
+
+
+	```javascript
+	function fancyAlert(arg) {
+	  if(arg) {
+	    $.facebox({div:'#foo'})
+	  }
+	}
+	```
+
+#####You can also simply indent your code by four spaces:
+
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+#####Hereâ€™s an example of Python code without syntax highlighting:
+	
+	def foo():
+	    if not bar:
+	        return True
+
+
+###Task Lists
+
+	- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+	- [x] list syntax required (any unordered or ordered list supported)
+	- [x] this is a complete item
+	- [ ] this is an incomplete item
+
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+
+
+###Tables
+
+######You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
+
+	First Header | Second Header
+	------------ | -------------
+	Content from cell 1 | Content from cell 2
+	Content in the first column | Content in the second column
+	
+
+###SHA references
+
+######Any reference to a commitâ€™s [SHA-1 hash](http://en.wikipedia.org/wiki/SHA-1) will be automatically converted into a link to that commit on GitHub.
+
+	16c999e8c71134401a78d4d46435517b2271d6ac
+	mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+	mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+
+
+###Issue references within a repository
+
+######Any number that refers to an Issue or Pull Request will be automatically converted into a link.
+
+	#1
+	mojombo#1
+	mojombo/github-flavored-markdown#1
+
+
+###Username @mentions
+
+#####Typing an ` @ ` symbol, followed by a username, will notify that person to come and view the comment. This is called an â€œ@mentionâ€, because youâ€™re mentioning the individual. You can also @mention teams within an organization.
+
+###Automatic linking for URLs
+
+######Any URL (like `http://www.github.com/`) will be automatically converted into a clickable link.
+
+
+###Strikethrough
+
+Any word wrapped with two tildes (like `~~this~~`) will appear crossed out.
+
+###Emoji
+
+GitHub supports emoji! :sparkles: :camel: :boom:
+
+To see a list of every image we support, check out the 
+<strong>[Emoji Cheat Sheet.](http://www.emoji-cheat-sheet.com/)<strong>
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+
+
+
+æ–‡ä»¶ è³‡æº å›å ±éŒ¯èª¤
+-----------------------------------------
+Markdownæ–‡ä»¶
 
 Markdown
 
@@ -7,49 +402,49 @@ NOTE: This is Traditional Chinese Edition Document of Markdown Syntax. If you ar
 
 Markdown: Syntax
 
-¸ÅÊö
-ÕÜŒW
-ĞĞƒÈHTML
-ÌØÊâ×ÖÔª×Ô„ÓŞD“Q
-…^‰KÔªËØ
-¶ÎÂäºÍ“QĞĞ
-˜Ëî}
-…^‰KÒıÑÔ
-Çå†Î
-³ÌÊ½´a…^‰K
-·Ö¸ô¾€
-…^¶ÎÔªËØ
-ßB½Y
-ŠÕ{
-³ÌÊ½´a
-ˆDÆ¬
-ÆäËû
-ÌøÃ“×ÖÔª
-×Ô„ÓßB½Y
-¸ĞÖx
-×¢Òâ£ºß@·İÎÄ¼şÊÇÓÃMarkdownŒ‘µÄ£¬Äã¿ÉÒÔ¿´¿´ËüµÄÔ­Ê¼™n¡£
+æ¦‚è¿°
+å“²å­¸
+è¡Œå…§HTML
+ç‰¹æ®Šå­—å…ƒè‡ªå‹•è½‰æ›
+å€å¡Šå…ƒç´ 
+æ®µè½å’Œæ›è¡Œ
+æ¨™é¡Œ
+å€å¡Šå¼•è¨€
+æ¸…å–®
+ç¨‹å¼ç¢¼å€å¡Š
+åˆ†éš”ç·š
+å€æ®µå…ƒç´ 
+é€£çµ
+å¼·èª¿
+ç¨‹å¼ç¢¼
+åœ–ç‰‡
+å…¶ä»–
+è·³è„«å­—å…ƒ
+è‡ªå‹•é€£çµ
+æ„Ÿè¬
+æ³¨æ„ï¼šé€™ä»½æ–‡ä»¶æ˜¯ç”¨Markdownå¯«çš„ï¼Œä½ å¯ä»¥çœ‹çœ‹å®ƒçš„åŸå§‹æª”ã€‚
 
-¸ÅÊö
+æ¦‚è¿°
 
-ÕÜŒW
+å“²å­¸
 
-MarkdownµÄÄ¿˜ËÊÇŒ¬F¡¸Ò××xÒ×Œ‘¡¹¡£
+Markdownçš„ç›®æ¨™æ˜¯å¯¦ç¾ã€Œæ˜“è®€æ˜“å¯«ã€ã€‚
 
-²»ß^×îĞèÒªŠÕ{µÄ±ãÊÇËüµÄ¿É×xĞÔ¡£Ò»·İÊ¹ÓÃMarkdown¸ñÊ½×«Œ‘µÄÎÄ¼ş‘ªÔ“¿ÉÒÔÖ±½ÓÒÔ¼ƒÎÄ×Ö°lÑ£¬KÇÒ¿´Æğí²»•şÏñÊÇÓÉÔS¶à˜Ë»`»òÊÇ¸ñÊ½Ö¸ÁîËù˜‹³É¡£MarkdownÕZ·¨ÊÜµ½Ò»Ğ©¼ÈÓĞtext-to-HTML¸ñÊ½µÄÓ°í‘£¬°üÀ¨Setext¡¢atx¡¢Textile¡¢reStructuredText¡¢GrutatextºÍEtText£¬È»¶ø×î´óì`¸ĞíÔ´ÆäŒÊÇ¼ƒÎÄ×ÖµÄëŠ×Óà]¼ş¸ñÊ½¡£
+ä¸éæœ€éœ€è¦å¼·èª¿çš„ä¾¿æ˜¯å®ƒçš„å¯è®€æ€§ã€‚ä¸€ä»½ä½¿ç”¨Markdownæ ¼å¼æ’°å¯«çš„æ–‡ä»¶æ‡‰è©²å¯ä»¥ç›´æ¥ä»¥ç´”æ–‡å­—ç™¼ä½ˆï¼Œä¸¦ä¸”çœ‹èµ·ä¾†ä¸æœƒåƒæ˜¯ç”±è¨±å¤šæ¨™ç±¤æˆ–æ˜¯æ ¼å¼æŒ‡ä»¤æ‰€æ§‹æˆã€‚Markdownèªæ³•å—åˆ°ä¸€äº›æ—¢æœ‰text-to-HTMLæ ¼å¼çš„å½±éŸ¿ï¼ŒåŒ…æ‹¬Setextã€atxã€Textileã€reStructuredTextã€Grutatextå’ŒEtTextï¼Œç„¶è€Œæœ€å¤§éˆæ„Ÿä¾†æºå…¶å¯¦æ˜¯ç´”æ–‡å­—çš„é›»å­éƒµä»¶æ ¼å¼ã€‚
 
-Òò´ËMarkdownµÄÕZ·¨È«ÓÉ˜Ëüc·ûÌ–Ëù½M³É£¬K½›ß^‡ÀÖ”É÷ßx£¬ÊÇéÁË×ŒËü‚ƒ¿´Æğí¾ÍÏñËùÒª±íß_µÄÒâË¼¡£ÏñÊÇÔÚÎÄ×ÖƒÉÅÔ¼ÓÉÏĞÇÌ–£¬¿´Æğí¾ÍÏñ*ŠÕ{*¡£MarkdownµÄÇå†Î¿´Æğí£¬àÅ£¬¾ÍÊÇÇå†Î¡£¼ÙÈçÄãÓĞÊ¹ÓÃß^ëŠ×Óà]¼ş£¬…^‰KÒıÑÔ¿´Æğí¾ÍÕæµÄÏñÊÇÒıÓÃÒ»¶ÎÎÄ×Ö¡£
+å› æ­¤Markdownçš„èªæ³•å…¨ç”±æ¨™é»ç¬¦è™Ÿæ‰€çµ„æˆï¼Œä¸¦ç¶“éåš´è¬¹æ…é¸ï¼Œæ˜¯ç‚ºäº†è®“å®ƒå€‘çœ‹èµ·ä¾†å°±åƒæ‰€è¦è¡¨é”çš„æ„æ€ã€‚åƒæ˜¯åœ¨æ–‡å­—å…©æ—åŠ ä¸Šæ˜Ÿè™Ÿï¼Œçœ‹èµ·ä¾†å°±åƒ*å¼·èª¿*ã€‚Markdownçš„æ¸…å–®çœ‹èµ·ä¾†ï¼Œå—¯ï¼Œå°±æ˜¯æ¸…å–®ã€‚å‡å¦‚ä½ æœ‰ä½¿ç”¨éé›»å­éƒµä»¶ï¼Œå€å¡Šå¼•è¨€çœ‹èµ·ä¾†å°±çœŸçš„åƒæ˜¯å¼•ç”¨ä¸€æ®µæ–‡å­—ã€‚
 
-ĞĞƒÈHTML
+è¡Œå…§HTML
 
-MarkdownµÄÕZ·¨ÓĞ‚€Ö÷ÒªµÄÄ¿µÄ£ºÓÃí×÷éÒ»·N¾WÂ·ƒÈÈİµÄŒ‘×÷ÓÃÕZÑÔ¡£
+Markdownçš„èªæ³•æœ‰å€‹ä¸»è¦çš„ç›®çš„ï¼šç”¨ä¾†ä½œç‚ºä¸€ç¨®ç¶²è·¯å…§å®¹çš„å¯«ä½œç”¨èªè¨€ã€‚
 
-Markdown²»ÊÇÒªíÈ¡´úHTML£¬ÉõÖÁÒ²›]ÓĞÒªºÍËüÏàËÆ£¬ËüµÄÕZ·¨·Nî²»¶à£¬Ö»ºÍHTMLµÄÒ»²¿·ÖÓĞêP‚S£¬ÖØüc²»ÊÇÒª„“ÔìÒ»·N¸üÈİÒ×Œ‘×÷ HTMLÎÄ¼şµÄÕZ·¨£¬ÎÒÕJéHTMLÒÑ½›ºÜÈİÒ×Œ‘ÁË£¬MarkdownµÄÖØücÔÚì¶£¬ËüÄÜ×ŒÎÄ¼ş¸üÈİÒ×é†×x¡¢¾Œ‘¡£HTMLÊÇÒ»·N°lÑµÄ¸ñÊ½£¬MarkdownÊÇÒ»·N¾Œ‘µÄ¸ñÊ½£¬Òò´Ë£¬MarkdownµÄ¸ñÊ½ÕZ·¨Ö»º­Éw¼ƒÎÄ×Ö¿ÉÒÔº­ÉwµÄ¹ ‡ú¡£
+Markdownä¸æ˜¯è¦ä¾†å–ä»£HTMLï¼Œç”šè‡³ä¹Ÿæ²’æœ‰è¦å’Œå®ƒç›¸ä¼¼ï¼Œå®ƒçš„èªæ³•ç¨®é¡ä¸å¤šï¼Œåªå’ŒHTMLçš„ä¸€éƒ¨åˆ†æœ‰é—œä¿‚ï¼Œé‡é»ä¸æ˜¯è¦å‰µé€ ä¸€ç¨®æ›´å®¹æ˜“å¯«ä½œ HTMLæ–‡ä»¶çš„èªæ³•ï¼Œæˆ‘èªç‚ºHTMLå·²ç¶“å¾ˆå®¹æ˜“å¯«äº†ï¼ŒMarkdownçš„é‡é»åœ¨æ–¼ï¼Œå®ƒèƒ½è®“æ–‡ä»¶æ›´å®¹æ˜“é–±è®€ã€ç·¨å¯«ã€‚HTMLæ˜¯ä¸€ç¨®ç™¼ä½ˆçš„æ ¼å¼ï¼ŒMarkdownæ˜¯ä¸€ç¨®ç·¨å¯«çš„æ ¼å¼ï¼Œå› æ­¤ï¼ŒMarkdownçš„æ ¼å¼èªæ³•åªæ¶µè“‹ç´”æ–‡å­—å¯ä»¥æ¶µè“‹çš„ç¯„åœã€‚
 
-²»ÔÚMarkdownº­Éw¹ ‡úÖ®ÍâµÄ˜Ë»`£¬¶¼¿ÉÒÔÖ±½ÓÔÚÎÄ¼şÑeÃæÓÃHTML×«Œ‘¡£²»ĞèÒªî~Íâ˜ËÔ]ß@ÊÇHTML»òÊÇMarkdown¡ª¡ªÖ»ÒªÖ±½Ó¼Ó˜Ë»`¾Í¿ÉÒÔÁË¡£
+ä¸åœ¨Markdownæ¶µè“‹ç¯„åœä¹‹å¤–çš„æ¨™ç±¤ï¼Œéƒ½å¯ä»¥ç›´æ¥åœ¨æ–‡ä»¶è£¡é¢ç”¨HTMLæ’°å¯«ã€‚ä¸éœ€è¦é¡å¤–æ¨™è¨»é€™æ˜¯HTMLæˆ–æ˜¯Markdownâ€”â€”åªè¦ç›´æ¥åŠ æ¨™ç±¤å°±å¯ä»¥äº†ã€‚
 
-Ö»ÓĞ…^‰KÔªËØ¡ª¡ª±ÈÈç<div>¡¢<table>¡¢<pre>¡¢<p>µÈ˜Ë»`¡ª¡ª±ØĞèÔÚÇ°áá¼ÓÉÏ¿ÕĞĞ£¬ÒÔÀûÅcƒÈÈİ…^¸ô¡£¶øÇÒß@Ğ©ÔªËØµÄé_Ê¼Åc½YÎ²˜Ë»`£¬²»¿ÉÒÔÓÃtab»òÊÇ¿Õ°×í¿sÅÅ¡£MarkdownµÄ®aÉúÆ÷ÓĞÖÇ»ÛĞÍÅĞ”à£¬¿ÉÒÔ±ÜÃâÔÚ…^‰K˜Ë»`Ç°áá¼ÓÉÏ›]ÓĞ±ØÒªµÄ<p>˜Ë»`¡£
+åªæœ‰å€å¡Šå…ƒç´ â€”â€”æ¯”å¦‚<div>ã€<table>ã€<pre>ã€<p>ç­‰æ¨™ç±¤â€”â€”å¿…éœ€åœ¨å‰å¾ŒåŠ ä¸Šç©ºè¡Œï¼Œä»¥åˆ©èˆ‡å…§å®¹å€éš”ã€‚è€Œä¸”é€™äº›å…ƒç´ çš„é–‹å§‹èˆ‡çµå°¾æ¨™ç±¤ï¼Œä¸å¯ä»¥ç”¨tabæˆ–æ˜¯ç©ºç™½ä¾†ç¸®æ’ã€‚Markdownçš„ç”¢ç”Ÿå™¨æœ‰æ™ºæ…§å‹åˆ¤æ–·ï¼Œå¯ä»¥é¿å…åœ¨å€å¡Šæ¨™ç±¤å‰å¾ŒåŠ ä¸Šæ²’æœ‰å¿…è¦çš„<p>æ¨™ç±¤ã€‚
 
-ÅeÀıíÕf£¬ÔÚMarkdownÎÄ¼şÑe¼ÓÉÏÒ»¶ÎHTML±í¸ñ£º
+èˆ‰ä¾‹ä¾†èªªï¼Œåœ¨Markdownæ–‡ä»¶è£¡åŠ ä¸Šä¸€æ®µHTMLè¡¨æ ¼ï¼š
 
 This is a regular paragraph.
 
@@ -60,83 +455,83 @@ This is a regular paragraph.
 </table>
 
 This is another regular paragraph.
-Õˆ×¢Òâ£¬MarkdownÕZ·¨ÔÚHTML…^‰K˜Ë»`ÖĞŒ¢²»•ş±»ßMĞĞÌÀí¡£ÀıÈç£¬ÄãŸo·¨ÔÚHTML…^‰KƒÈÊ¹ÓÃMarkdownĞÎÊ½µÄ*ŠÕ{*¡£
+è«‹æ³¨æ„ï¼ŒMarkdownèªæ³•åœ¨HTMLå€å¡Šæ¨™ç±¤ä¸­å°‡ä¸æœƒè¢«é€²è¡Œè™•ç†ã€‚ä¾‹å¦‚ï¼Œä½ ç„¡æ³•åœ¨HTMLå€å¡Šå…§ä½¿ç”¨Markdownå½¢å¼çš„*å¼·èª¿*ã€‚
 
-HTMLµÄ…^¶Î˜Ë»`Èç<span>¡¢<cite>¡¢<del>„t²»ÊÜÏŞÖÆ£¬¿ÉÒÔÔÚMarkdownµÄ¶ÎÂä¡¢Çå†Î»òÊÇ˜Ëî}ÑeÈÎÒâÊ¹ÓÃ¡£ÒÀÕÕ‚€ÈËÁ•‘T£¬ÉõÖÁ¿ÉÒÔ²»ÓÃMarkdown¸ñÊ½£¬¶ø’ñÓÃHTML˜Ë»`í¸ñÊ½»¯¡£ÅeÀıÕfÃ÷£ºÈç¹û±Èİ^Ï²šg HTMLµÄ<a>»ò<img>˜Ë»`£¬¿ÉÒÔÖ±½ÓÊ¹ÓÃß@Ğ©˜Ë»`£¬¶ø²»ÓÃMarkdownÌá¹©µÄßB½Y»òÊÇÓ°Ïñ˜ËÊ¾ÕZ·¨¡£
+HTMLçš„å€æ®µæ¨™ç±¤å¦‚<span>ã€<cite>ã€<del>å‰‡ä¸å—é™åˆ¶ï¼Œå¯ä»¥åœ¨Markdownçš„æ®µè½ã€æ¸…å–®æˆ–æ˜¯æ¨™é¡Œè£¡ä»»æ„ä½¿ç”¨ã€‚ä¾ç…§å€‹äººç¿’æ…£ï¼Œç”šè‡³å¯ä»¥ä¸ç”¨Markdownæ ¼å¼ï¼Œè€Œæ¡ç”¨HTMLæ¨™ç±¤ä¾†æ ¼å¼åŒ–ã€‚èˆ‰ä¾‹èªªæ˜ï¼šå¦‚æœæ¯”è¼ƒå–œæ­¡ HTMLçš„<a>æˆ–<img>æ¨™ç±¤ï¼Œå¯ä»¥ç›´æ¥ä½¿ç”¨é€™äº›æ¨™ç±¤ï¼Œè€Œä¸ç”¨Markdownæä¾›çš„é€£çµæˆ–æ˜¯å½±åƒæ¨™ç¤ºèªæ³•ã€‚
 
-HTML…^¶Î˜Ë»`ºÍ…^‰K˜Ë»`²»Í¬£¬ÔÚ…^¶Î˜Ë»`µÄ¹ ‡úƒÈ£¬MarkdownµÄÕZ·¨ÊÇÓĞĞ§µÄ¡£
+HTMLå€æ®µæ¨™ç±¤å’Œå€å¡Šæ¨™ç±¤ä¸åŒï¼Œåœ¨å€æ®µæ¨™ç±¤çš„ç¯„åœå…§ï¼ŒMarkdownçš„èªæ³•æ˜¯æœ‰æ•ˆçš„ã€‚
 
-ÌØÊâ×ÖÔª×Ô„ÓŞD“Q
+ç‰¹æ®Šå­—å…ƒè‡ªå‹•è½‰æ›
 
-ÔÚHTMLÎÄ¼şÖĞ£¬ÓĞƒÉ‚€×ÖÔªĞèÒªÌØÊâÌÀí£º<ºÍ&¡£<·ûÌ–ÓÃì¶ÆğÊ¼˜Ë»`£¬&·ûÌ–„tÓÃì¶˜ËÓ›HTMLŒów£¬Èç¹ûÄãÖ»ÊÇÏëÒªÊ¹ÓÃß@Ğ©·ûÌ–£¬Äã±ØíšÒªÊ¹ÓÃŒówµÄĞÎÊ½£¬ÏñÊÇ&lt;ºÍ&amp;¡£
+åœ¨HTMLæ–‡ä»¶ä¸­ï¼Œæœ‰å…©å€‹å­—å…ƒéœ€è¦ç‰¹æ®Šè™•ç†ï¼š<å’Œ&ã€‚<ç¬¦è™Ÿç”¨æ–¼èµ·å§‹æ¨™ç±¤ï¼Œ&ç¬¦è™Ÿå‰‡ç”¨æ–¼æ¨™è¨˜HTMLå¯¦é«”ï¼Œå¦‚æœä½ åªæ˜¯æƒ³è¦ä½¿ç”¨é€™äº›ç¬¦è™Ÿï¼Œä½ å¿…é ˆè¦ä½¿ç”¨å¯¦é«”çš„å½¢å¼ï¼Œåƒæ˜¯&lt;å’Œ&amp;ã€‚
 
-&·ûÌ–ÆäŒºÜ×ŒŒ‘×÷¾WÂ·ÎÄ¼şµÄÈË¸Ğµ½À§”_£¬Èç¹ûÄãÒª´ò¡¸AT&T¡¹£¬Äã±ØíšÒªŒ‘³É¡¸AT&amp;T¡¹£¬ß€µÃŞD“Q¾WÖ·ƒÈµÄ&·ûÌ–£¬Èç¹ûÄãÒªßB½Yµ½£º
+&ç¬¦è™Ÿå…¶å¯¦å¾ˆè®“å¯«ä½œç¶²è·¯æ–‡ä»¶çš„äººæ„Ÿåˆ°å›°æ“¾ï¼Œå¦‚æœä½ è¦æ‰“ã€ŒAT&Tã€ï¼Œä½ å¿…é ˆè¦å¯«æˆã€ŒAT&amp;Tã€ï¼Œé‚„å¾—è½‰æ›ç¶²å€å…§çš„&ç¬¦è™Ÿï¼Œå¦‚æœä½ è¦é€£çµåˆ°ï¼š
 
 http://images.google.com/images?num=30&q=larry+bird
-Äã±ØíšÒª°Ñ¾WÖ·ŞD³É£º
+ä½ å¿…é ˆè¦æŠŠç¶²å€è½‰æˆï¼š
 
 http://images.google.com/images?num=30&amp;q=larry+bird
-²ÅÄÜ·Åµ½ßB½Y˜Ë»`µÄhrefŒÙĞÔÑe¡£²»ÓÃÕfÒ²ÖªµÀß@ºÜÈİÒ×ÍüÓ›£¬ß@Ò²¿ÉÄÜÊÇHTML˜ËœÊ™z²éËù™z²éµ½µÄåeÕ`ÖĞ£¬”µÁ¿×î¶àµÄ¡£
+æ‰èƒ½æ”¾åˆ°é€£çµæ¨™ç±¤çš„hrefå±¬æ€§è£¡ã€‚ä¸ç”¨èªªä¹ŸçŸ¥é“é€™å¾ˆå®¹æ˜“å¿˜è¨˜ï¼Œé€™ä¹Ÿå¯èƒ½æ˜¯HTMLæ¨™æº–æª¢æŸ¥æ‰€æª¢æŸ¥åˆ°çš„éŒ¯èª¤ä¸­ï¼Œæ•¸é‡æœ€å¤šçš„ã€‚
 
-MarkdownÔÊÔSÄãÖ±½ÓÊ¹ÓÃß@Ğ©·ûÌ–£¬µ«ÊÇÄãÒªĞ¡ĞÄÌøÃ“×ÖÔªµÄÊ¹ÓÃ£¬Èç¹ûÄãÊÇÔÚHTMLŒówÖĞÊ¹ÓÃ&·ûÌ–µÄÔ’£¬Ëü²»•ş±»ŞD“Q£¬¶øÔÚÆäËûÇéĞÎÏÂ£¬Ëü„t•ş±»ŞD“Q³É&amp;¡£ËùÒÔÄãÈç¹ûÒªÔÚÎÄ¼şÖĞ²åÈëÒ»‚€Öø×÷™àµÄ·ûÌ–£¬Äã¿ÉÒÔß@˜ÓŒ‘£º
+Markdownå…è¨±ä½ ç›´æ¥ä½¿ç”¨é€™äº›ç¬¦è™Ÿï¼Œä½†æ˜¯ä½ è¦å°å¿ƒè·³è„«å­—å…ƒçš„ä½¿ç”¨ï¼Œå¦‚æœä½ æ˜¯åœ¨HTMLå¯¦é«”ä¸­ä½¿ç”¨&ç¬¦è™Ÿçš„è©±ï¼Œå®ƒä¸æœƒè¢«è½‰æ›ï¼Œè€Œåœ¨å…¶ä»–æƒ…å½¢ä¸‹ï¼Œå®ƒå‰‡æœƒè¢«è½‰æ›æˆ&amp;ã€‚æ‰€ä»¥ä½ å¦‚æœè¦åœ¨æ–‡ä»¶ä¸­æ’å…¥ä¸€å€‹è‘—ä½œæ¬Šçš„ç¬¦è™Ÿï¼Œä½ å¯ä»¥é€™æ¨£å¯«ï¼š
 
 &copy;
-MarkdownŒ¢²»•şŒ¦ß@¶ÎÎÄ×Ö×öĞŞ¸Ä£¬µ«ÊÇÈç¹ûÄãß@˜ÓŒ‘£º
+Markdownå°‡ä¸æœƒå°é€™æ®µæ–‡å­—åšä¿®æ”¹ï¼Œä½†æ˜¯å¦‚æœä½ é€™æ¨£å¯«ï¼š
 
 AT&T
-Markdown¾Í•şŒ¢ËüŞDé£º
+Markdownå°±æœƒå°‡å®ƒè½‰ç‚ºï¼š
 
 AT&amp;T
-îËÆµÄ î›rÒ²•ş°lÉúÔÚ<·ûÌ–ÉÏ£¬ÒòéMarkdownÖ§Ô®ĞĞƒÈHTML£¬Èç¹ûÄãÊÇÊ¹ÓÃ<·ûÌ–×÷éHTML˜Ë»`Ê¹ÓÃ£¬ÄÇMarkdownÒ²²»•şŒ¦Ëü×öÈÎºÎŞD“Q£¬µ«ÊÇÈç¹ûÄãÊÇŒ‘£º
+é¡ä¼¼çš„ç‹€æ³ä¹Ÿæœƒç™¼ç”Ÿåœ¨<ç¬¦è™Ÿä¸Šï¼Œå› ç‚ºMarkdownæ”¯æ´è¡Œå…§HTMLï¼Œå¦‚æœä½ æ˜¯ä½¿ç”¨<ç¬¦è™Ÿä½œç‚ºHTMLæ¨™ç±¤ä½¿ç”¨ï¼Œé‚£Markdownä¹Ÿä¸æœƒå°å®ƒåšä»»ä½•è½‰æ›ï¼Œä½†æ˜¯å¦‚æœä½ æ˜¯å¯«ï¼š
 
 4 < 5
-MarkdownŒ¢•ş°ÑËüŞD“Qé£º
+Markdownå°‡æœƒæŠŠå®ƒè½‰æ›ç‚ºï¼š
 
 4 &lt; 5
-²»ß^ĞèÒª×¢ÒâµÄÊÇ£¬code¹ ‡úƒÈ£¬²»Õ“ÊÇĞĞƒÈß€ÊÇ…^‰K£¬<ºÍ&ƒÉ‚€·ûÌ–¶¼Ò»¶¨•ş±»ŞD“Q³ÉHTMLŒów£¬ß@í—ÌØĞÔ×ŒÄã¿ÉÒÔºÜÈİÒ×µØÓÃMarkdownŒ‘HTML code£¨ºÍHTMLÏàŒ¦¶øÑÔ£¬ HTMLÕZ·¨ÖĞ£¬ÄãÒª°ÑËùÓĞµÄ<ºÍ&¶¼ŞD“QéHTMLŒów£¬²ÅÄÜÔÚHTMLÎÄ¼şÑeÃæŒ‘³öHTML code¡££©
+ä¸ééœ€è¦æ³¨æ„çš„æ˜¯ï¼Œcodeç¯„åœå…§ï¼Œä¸è«–æ˜¯è¡Œå…§é‚„æ˜¯å€å¡Šï¼Œ<å’Œ&å…©å€‹ç¬¦è™Ÿéƒ½ä¸€å®šæœƒè¢«è½‰æ›æˆHTMLå¯¦é«”ï¼Œé€™é …ç‰¹æ€§è®“ä½ å¯ä»¥å¾ˆå®¹æ˜“åœ°ç”¨Markdownå¯«HTML codeï¼ˆå’ŒHTMLç›¸å°è€Œè¨€ï¼Œ HTMLèªæ³•ä¸­ï¼Œä½ è¦æŠŠæ‰€æœ‰çš„<å’Œ&éƒ½è½‰æ›ç‚ºHTMLå¯¦é«”ï¼Œæ‰èƒ½åœ¨HTMLæ–‡ä»¶è£¡é¢å¯«å‡ºHTML codeã€‚ï¼‰
 
-…^‰KÔªËØ
+å€å¡Šå…ƒç´ 
 
-¶ÎÂäºÍ“QĞĞ
+æ®µè½å’Œæ›è¡Œ
 
-Ò»‚€¶ÎÂäÊÇÓÉÒ»‚€ÒÔÉÏÏàßB½ÓµÄĞĞ¾ä½M³É£¬¶øÒ»‚€ÒÔÉÏµÄ¿ÕĞĞ„t•şÇĞ·Ö³ö²»Í¬µÄ¶ÎÂä£¨¿ÕĞĞµÄ¶¨ÁxÊÇï@Ê¾ÉÏ¿´ÆğíÏñÊÇ¿ÕĞĞ£¬±ã•ş±»Ò•é¿ÕĞĞ¡£±È·½Õf£¬ÈôÄ³Ò»ĞĞÖ»°üº¬¿Õ°×ºÍtab£¬„tÔ“ĞĞÒ²•ş±»Ò•é¿ÕĞĞ£©£¬Ò»°ãµÄ¶ÎÂä²»ĞèÒªÓÃ¿Õ°×»ò”àĞĞ¿sÅÅ¡£
+ä¸€å€‹æ®µè½æ˜¯ç”±ä¸€å€‹ä»¥ä¸Šç›¸é€£æ¥çš„è¡Œå¥çµ„æˆï¼Œè€Œä¸€å€‹ä»¥ä¸Šçš„ç©ºè¡Œå‰‡æœƒåˆ‡åˆ†å‡ºä¸åŒçš„æ®µè½ï¼ˆç©ºè¡Œçš„å®šç¾©æ˜¯é¡¯ç¤ºä¸Šçœ‹èµ·ä¾†åƒæ˜¯ç©ºè¡Œï¼Œä¾¿æœƒè¢«è¦–ç‚ºç©ºè¡Œã€‚æ¯”æ–¹èªªï¼Œè‹¥æŸä¸€è¡ŒåªåŒ…å«ç©ºç™½å’Œtabï¼Œå‰‡è©²è¡Œä¹Ÿæœƒè¢«è¦–ç‚ºç©ºè¡Œï¼‰ï¼Œä¸€èˆ¬çš„æ®µè½ä¸éœ€è¦ç”¨ç©ºç™½æˆ–æ–·è¡Œç¸®æ’ã€‚
 
-¡¸Ò»‚€ÒÔÉÏÏàßB½ÓµÄĞĞ¾ä½M³É¡¹ß@¾äÔ’ÆäŒ°µÊ¾ÁËMarkdownÔÊÔS¶ÎÂäƒÈµÄŠÆÈ”àĞĞ£¬ß@‚€ÌØĞÔºÍÆäËû´ó²¿·ÖµÄtext-to-HTML¸ñÊ½²»Ò»˜Ó£¨°üÀ¨ MovableTypeµÄ¡¸Convert Line Breaks¡¹ßxí—£©£¬ÆäËûµÄ¸ñÊ½•ş°ÑÃ¿‚€”àĞĞ¶¼ŞD³É<br />˜Ë»`¡£
+ã€Œä¸€å€‹ä»¥ä¸Šç›¸é€£æ¥çš„è¡Œå¥çµ„æˆã€é€™å¥è©±å…¶å¯¦æš—ç¤ºäº†Markdownå…è¨±æ®µè½å…§çš„å¼·è¿«æ–·è¡Œï¼Œé€™å€‹ç‰¹æ€§å’Œå…¶ä»–å¤§éƒ¨åˆ†çš„text-to-HTMLæ ¼å¼ä¸ä¸€æ¨£ï¼ˆåŒ…æ‹¬ MovableTypeçš„ã€ŒConvert Line Breaksã€é¸é …ï¼‰ï¼Œå…¶ä»–çš„æ ¼å¼æœƒæŠŠæ¯å€‹æ–·è¡Œéƒ½è½‰æˆ<br />æ¨™ç±¤ã€‚
 
-Èç¹ûÄãÕæµÄÏëÒª²åÈë<br />˜Ë»`µÄÔ’£¬ÔÚĞĞÎ²¼ÓÉÏƒÉ‚€ÒÔÉÏµÄ¿Õ°×£¬È»áá°´enter¡£
+å¦‚æœä½ çœŸçš„æƒ³è¦æ’å…¥<br />æ¨™ç±¤çš„è©±ï¼Œåœ¨è¡Œå°¾åŠ ä¸Šå…©å€‹ä»¥ä¸Šçš„ç©ºç™½ï¼Œç„¶å¾ŒæŒ‰enterã€‚
 
-ÊÇµÄ£¬ß@´_ŒĞèÒª»¨±Èİ^¶à¹¦·òí²åÈë<br />£¬µ«ÊÇ¡¸Ã¿‚€“QĞĞ¶¼ŞD“Qé<br />¡¹µÄ·½·¨ÔÚ MarkdownÖĞK²»ßmºÏ£¬MarkdownÖĞemailÊ½µÄ…^‰KÒıÑÔºÍ¶à¶ÎÂäµÄÇå†ÎÔÚÊ¹ÓÃ“QĞĞíÅÅ°æµÄ•rºò£¬²»µ«¸üºÃÓÃ£¬ß€¸üºÃé†×x¡£
+æ˜¯çš„ï¼Œé€™ç¢ºå¯¦éœ€è¦èŠ±æ¯”è¼ƒå¤šåŠŸå¤«ä¾†æ’å…¥<br />ï¼Œä½†æ˜¯ã€Œæ¯å€‹æ›è¡Œéƒ½è½‰æ›ç‚º<br />ã€çš„æ–¹æ³•åœ¨ Markdownä¸­ä¸¦ä¸é©åˆï¼ŒMarkdownä¸­emailå¼çš„å€å¡Šå¼•è¨€å’Œå¤šæ®µè½çš„æ¸…å–®åœ¨ä½¿ç”¨æ›è¡Œä¾†æ’ç‰ˆçš„æ™‚å€™ï¼Œä¸ä½†æ›´å¥½ç”¨ï¼Œé‚„æ›´å¥½é–±è®€ã€‚
 
-˜Ëî}
+æ¨™é¡Œ
 
-MarkdownÖ§Ô®ƒÉ·N˜Ëî}µÄÕZ·¨£¬SetextºÍatxĞÎÊ½¡£
+Markdownæ”¯æ´å…©ç¨®æ¨™é¡Œçš„èªæ³•ï¼ŒSetextå’Œatxå½¢å¼ã€‚
 
-SetextĞÎÊ½ÊÇÓÃµ×¾€µÄĞÎÊ½£¬ÀûÓÃ=£¨×î¸ßëA˜Ëî}£©ºÍ-£¨µÚ¶şëA˜Ëî}£©£¬ÀıÈç£º
+Setextå½¢å¼æ˜¯ç”¨åº•ç·šçš„å½¢å¼ï¼Œåˆ©ç”¨=ï¼ˆæœ€é«˜éšæ¨™é¡Œï¼‰å’Œ-ï¼ˆç¬¬äºŒéšæ¨™é¡Œï¼‰ï¼Œä¾‹å¦‚ï¼š
 
 This is an H1
 =============
 
 This is an H2
 -------------
-ÈÎºÎ”µÁ¿µÄ=ºÍ-¶¼¿ÉÒÔÓĞĞ§¹û¡£
+ä»»ä½•æ•¸é‡çš„=å’Œ-éƒ½å¯ä»¥æœ‰æ•ˆæœã€‚
 
-AtxĞÎÊ½„tÊÇÔÚĞĞÊ×²åÈë1ÖÁ6‚€#£¬Œ¦‘ªµ½˜Ëî}1µ½6ëA£¬ÀıÈç£º
+Atxå½¢å¼å‰‡æ˜¯åœ¨è¡Œé¦–æ’å…¥1è‡³6å€‹#ï¼Œå°æ‡‰åˆ°æ¨™é¡Œ1åˆ°6éšï¼Œä¾‹å¦‚ï¼š
 
 # This is an H1
 
 ## This is an H2
 
 ###### This is an H6
-Äã¿ÉÒÔßx“ñĞÔµØ¡¸êPé]¡¹atx˜ÓÊ½µÄ˜Ëî}£¬ß@¼ƒ´âÖ»ÊÇÃÀÓ^ÓÃµÄ£¬ÈôÊÇÓXµÃß@˜Ó¿´Æğí±Èİ^Êæßm£¬Äã¾Í¿ÉÒÔÔÚĞĞÎ²¼ÓÉÏ#£¬¶øĞĞÎ²µÄ#”µÁ¿Ò²²»ÓÃºÍé_î^Ò»˜Ó£¨ĞĞÊ×µÄ¾®×Ö”µÁ¿›Q¶¨˜Ëî}µÄëA”µ£©£º
+ä½ å¯ä»¥é¸æ“‡æ€§åœ°ã€Œé—œé–‰ã€atxæ¨£å¼çš„æ¨™é¡Œï¼Œé€™ç´”ç²¹åªæ˜¯ç¾è§€ç”¨çš„ï¼Œè‹¥æ˜¯è¦ºå¾—é€™æ¨£çœ‹èµ·ä¾†æ¯”è¼ƒèˆ’é©ï¼Œä½ å°±å¯ä»¥åœ¨è¡Œå°¾åŠ ä¸Š#ï¼Œè€Œè¡Œå°¾çš„#æ•¸é‡ä¹Ÿä¸ç”¨å’Œé–‹é ­ä¸€æ¨£ï¼ˆè¡Œé¦–çš„äº•å­—æ•¸é‡æ±ºå®šæ¨™é¡Œçš„éšæ•¸ï¼‰ï¼š
 
 # This is an H1 #
 
 ## This is an H2 ##
 
 ### This is an H3 ######
-…^‰KÒıÑÔ
+å€å¡Šå¼•è¨€
 
-MarkdownÊ¹ÓÃemailĞÎÊ½µÄ…^‰KÒıÑÔ£¬Èç¹ûÄãºÜÊìÏ¤ÈçºÎÔÚemailĞÅ¼şÖĞÒıÑÔ£¬Äã¾ÍÖªµÀÔõüNÔÚMarkdownÎÄ¼şÖĞ½¨Á¢Ò»‚€…^‰KÒıÑÔ£¬ÄÇ•ş¿´ÆğíÏñÊÇÄãŠÆÈ”àĞĞ£¬È»ááÔÚÃ¿ĞĞµÄ×îÇ°Ãæ¼ÓÉÏ>£º
+Markdownä½¿ç”¨emailå½¢å¼çš„å€å¡Šå¼•è¨€ï¼Œå¦‚æœä½ å¾ˆç†Ÿæ‚‰å¦‚ä½•åœ¨emailä¿¡ä»¶ä¸­å¼•è¨€ï¼Œä½ å°±çŸ¥é“æ€éº¼åœ¨Markdownæ–‡ä»¶ä¸­å»ºç«‹ä¸€å€‹å€å¡Šå¼•è¨€ï¼Œé‚£æœƒçœ‹èµ·ä¾†åƒæ˜¯ä½ å¼·è¿«æ–·è¡Œï¼Œç„¶å¾Œåœ¨æ¯è¡Œçš„æœ€å‰é¢åŠ ä¸Š>ï¼š
 
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -144,7 +539,7 @@ MarkdownÊ¹ÓÃemailĞÎÊ½µÄ…^‰KÒıÑÔ£¬Èç¹ûÄãºÜÊìÏ¤ÈçºÎÔÚemailĞÅ¼şÖĞÒıÑÔ£¬Äã¾ÍÖªµÀÔõüN
 > 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 > id sem consectetuer libero luctus adipiscing.
-MarkdownÒ²ÔÊÔSÄãÖ»ÔÚÕû‚€¶ÎÂäµÄµÚÒ»ĞĞ×îÇ°Ãæ¼ÓÉÏ>£º
+Markdownä¹Ÿå…è¨±ä½ åªåœ¨æ•´å€‹æ®µè½çš„ç¬¬ä¸€è¡Œæœ€å‰é¢åŠ ä¸Š>ï¼š
 
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -152,14 +547,14 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 id sem consectetuer libero luctus adipiscing.
-…^‰KÒıÑÔ¿ÉÒÔÓĞëAŒÓ£¨ÀıÈç£ºÒıÑÔƒÈµÄÒıÑÔ£©£¬Ö»Òª¸ù“şŒÓ”µ¼ÓÉÏ²»Í¬”µÁ¿µÄ>£º
+å€å¡Šå¼•è¨€å¯ä»¥æœ‰éšå±¤ï¼ˆä¾‹å¦‚ï¼šå¼•è¨€å…§çš„å¼•è¨€ï¼‰ï¼Œåªè¦æ ¹æ“šå±¤æ•¸åŠ ä¸Šä¸åŒæ•¸é‡çš„>ï¼š
 
 > This is the first level of quoting.
 >
 > > This is nested blockquote.
 >
 > Back to the first level.
-ÒıÑÔµÄ…^‰KƒÈÒ²¿ÉÒÔÊ¹ÓÃÆäËûµÄMarkdownÕZ·¨£¬°üÀ¨˜Ëî}¡¢Çå†Î¡¢³ÌÊ½´a…^‰KµÈ£º
+å¼•è¨€çš„å€å¡Šå…§ä¹Ÿå¯ä»¥ä½¿ç”¨å…¶ä»–çš„Markdownèªæ³•ï¼ŒåŒ…æ‹¬æ¨™é¡Œã€æ¸…å–®ã€ç¨‹å¼ç¢¼å€å¡Šç­‰ï¼š
 
 > ## This is a header.
 > 
@@ -169,91 +564,91 @@ id sem consectetuer libero luctus adipiscing.
 > Here's some example code:
 > 
 >     return shell_exec("echo $input | $markdown_script");
-ÈÎºÎ˜ËœÊµÄÎÄ×Ö¾İ‹Æ÷¶¼ÄÜº††ÎµØ½¨Á¢email˜ÓÊ½µÄÒıÑÔ£¬ÀıÈçBBEdit£¬Äã¿ÉÒÔßxÈ¡ÎÄ×ÖááÈ»ááÄßx†ÎÖĞßx“ñÔö¼ÓÒıÑÔëAŒÓ¡£
+ä»»ä½•æ¨™æº–çš„æ–‡å­—ç·¨è¼¯å™¨éƒ½èƒ½ç°¡å–®åœ°å»ºç«‹emailæ¨£å¼çš„å¼•è¨€ï¼Œä¾‹å¦‚BBEditï¼Œä½ å¯ä»¥é¸å–æ–‡å­—å¾Œç„¶å¾Œå¾é¸å–®ä¸­é¸æ“‡å¢åŠ å¼•è¨€éšå±¤ã€‚
 
-Çå†Î
+æ¸…å–®
 
-MarkdownÖ§Ô®ÓĞĞòÇå†ÎºÍŸoĞòÇå†Î¡£
+Markdownæ”¯æ´æœ‰åºæ¸…å–®å’Œç„¡åºæ¸…å–®ã€‚
 
-ŸoĞòÇå†ÎÊ¹ÓÃĞÇÌ–¡¢¼ÓÌ–»òÊÇœpÌ–×÷éÇå†Î˜ËÓ›£º
+ç„¡åºæ¸…å–®ä½¿ç”¨æ˜Ÿè™Ÿã€åŠ è™Ÿæˆ–æ˜¯æ¸›è™Ÿä½œç‚ºæ¸…å–®æ¨™è¨˜ï¼š
 
 *   Red
 *   Green
 *   Blue
-µÈÍ¬ì¶£º
+ç­‰åŒæ–¼ï¼š
 
 +   Red
 +   Green
 +   Blue
-Ò²µÈÍ¬ì¶£º
+ä¹Ÿç­‰åŒæ–¼ï¼š
 
 -   Red
 -   Green
 -   Blue
-ÓĞĞòÇå†Î„tÊ¹ÓÃ”µ×Ö½ÓÖøÒ»‚€Ó¢ÎÄ¾äüc£º
+æœ‰åºæ¸…å–®å‰‡ä½¿ç”¨æ•¸å­—æ¥è‘—ä¸€å€‹è‹±æ–‡å¥é»ï¼š
 
 1.  Bird
 2.  McHale
 3.  Parish
-ºÜÖØÒªµÄÒ»ücÊÇ£¬ÄãÔÚÇå†Î˜ËÓ›ÉÏÊ¹ÓÃµÄ”µ×ÖK²»•şÓ°í‘İ”³öµÄHTML½Y¹û£¬ÉÏÃæµÄÇå†ÎËù®aÉúµÄHTML˜ËÓ›é£º
+å¾ˆé‡è¦çš„ä¸€é»æ˜¯ï¼Œä½ åœ¨æ¸…å–®æ¨™è¨˜ä¸Šä½¿ç”¨çš„æ•¸å­—ä¸¦ä¸æœƒå½±éŸ¿è¼¸å‡ºçš„HTMLçµæœï¼Œä¸Šé¢çš„æ¸…å–®æ‰€ç”¢ç”Ÿçš„HTMLæ¨™è¨˜ç‚ºï¼š
 
 <ol>
 <li>Bird</li>
 <li>McHale</li>
 <li>Parish</li>
 </ol>
-Èç¹ûÄãµÄÇå†Î˜ËÓ›Œ‘³É£º
+å¦‚æœä½ çš„æ¸…å–®æ¨™è¨˜å¯«æˆï¼š
 
 1.  Bird
 1.  McHale
 1.  Parish
-»òÉõÖÁÊÇ£º
+æˆ–ç”šè‡³æ˜¯ï¼š
 
 3. Bird
 1. McHale
 8. Parish
-Äã¶¼•şµÃµ½ÍêÈ«ÏàÍ¬µÄHTMLİ”³ö¡£ÖØücÔÚì¶£¬Äã¿ÉÒÔ×ŒMarkdownÎÄ¼şµÄÇå†Î”µ×ÖºÍİ”³öµÄ½Y¹ûÏàÍ¬£¬»òÊÇÄã‘ĞÒ»üc£¬Äã¿ÉÒÔÍêÈ«²»ÓÃÔÚÒâ”µ×ÖµÄÕı´_ĞÔ¡£
+ä½ éƒ½æœƒå¾—åˆ°å®Œå…¨ç›¸åŒçš„HTMLè¼¸å‡ºã€‚é‡é»åœ¨æ–¼ï¼Œä½ å¯ä»¥è®“Markdownæ–‡ä»¶çš„æ¸…å–®æ•¸å­—å’Œè¼¸å‡ºçš„çµæœç›¸åŒï¼Œæˆ–æ˜¯ä½ æ‡¶ä¸€é»ï¼Œä½ å¯ä»¥å®Œå…¨ä¸ç”¨åœ¨æ„æ•¸å­—çš„æ­£ç¢ºæ€§ã€‚
 
-Èç¹ûÄãÊ¹ÓÃ‘Ğ¶èµÄŒ‘·¨£¬½¨×hµÚÒ»‚€í—Ä¿×îºÃß€ÊÇÄ¡¸1.¡¹é_Ê¼£¬ÒòéMarkdownÎ´í¿ÉÄÜ•şÖ§Ô®ÓĞĞòÇå†ÎµÄstartŒÙĞÔ¡£
+å¦‚æœä½ ä½¿ç”¨æ‡¶æƒ°çš„å¯«æ³•ï¼Œå»ºè­°ç¬¬ä¸€å€‹é …ç›®æœ€å¥½é‚„æ˜¯å¾ã€Œ1.ã€é–‹å§‹ï¼Œå› ç‚ºMarkdownæœªä¾†å¯èƒ½æœƒæ”¯æ´æœ‰åºæ¸…å–®çš„startå±¬æ€§ã€‚
 
-Çå†Îí—Ä¿˜ËÓ›Í¨³£ÊÇ·ÅÔÚ×î×óß…£¬µ«ÊÇÆäŒÒ²¿ÉÒÔ¿sÅÅ£¬×î¶àÈı‚€¿Õ°×£¬í—Ä¿˜ËÓ›ááÃæ„tÒ»¶¨Òª½ÓÖøÖÁÉÙÒ»‚€¿Õ°×»òtab¡£
+æ¸…å–®é …ç›®æ¨™è¨˜é€šå¸¸æ˜¯æ”¾åœ¨æœ€å·¦é‚Šï¼Œä½†æ˜¯å…¶å¯¦ä¹Ÿå¯ä»¥ç¸®æ’ï¼Œæœ€å¤šä¸‰å€‹ç©ºç™½ï¼Œé …ç›®æ¨™è¨˜å¾Œé¢å‰‡ä¸€å®šè¦æ¥è‘—è‡³å°‘ä¸€å€‹ç©ºç™½æˆ–tabã€‚
 
-Òª×ŒÇå†Î¿´Æğí¸üÆ¯ÁÁ£¬Äã¿ÉÒÔ°ÑƒÈÈİÓÃ¹Ì¶¨µÄ¿sÅÅÕûÀíºÃ£º
+è¦è®“æ¸…å–®çœ‹èµ·ä¾†æ›´æ¼‚äº®ï¼Œä½ å¯ä»¥æŠŠå…§å®¹ç”¨å›ºå®šçš„ç¸®æ’æ•´ç†å¥½ï¼š
 
 *   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
     viverra nec, fringilla in, laoreet vitae, risus.
 *   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
     Suspendisse id sem consectetuer libero luctus adipiscing.
-µ«ÊÇÈç¹ûÄãºÜ‘Ğ£¬ÄÇÒ²²»Ò»¶¨ĞèÒª£º
+ä½†æ˜¯å¦‚æœä½ å¾ˆæ‡¶ï¼Œé‚£ä¹Ÿä¸ä¸€å®šéœ€è¦ï¼š
 
 *   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
 viverra nec, fringilla in, laoreet vitae, risus.
 *   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
 Suspendisse id sem consectetuer libero luctus adipiscing.
-Èç¹ûÇå†Îí—Ä¿égÓÃ¿ÕĞĞ·Öé_£¬Markdown•ş°Ñí—Ä¿µÄƒÈÈİÔÚİ”³ö•rÓÃ<p>˜Ë»`°üÆğí£¬ÅeÀıíÕf£º
+å¦‚æœæ¸…å–®é …ç›®é–“ç”¨ç©ºè¡Œåˆ†é–‹ï¼ŒMarkdownæœƒæŠŠé …ç›®çš„å…§å®¹åœ¨è¼¸å‡ºæ™‚ç”¨<p>æ¨™ç±¤åŒ…èµ·ä¾†ï¼Œèˆ‰ä¾‹ä¾†èªªï¼š
 
 *   Bird
 *   Magic
-•ş±»ŞD“Qé£º
+æœƒè¢«è½‰æ›ç‚ºï¼š
 
 <ul>
 <li>Bird</li>
 <li>Magic</li>
 </ul>
-µ«ÊÇß@‚€£º
+ä½†æ˜¯é€™å€‹ï¼š
 
 *   Bird
 
 *   Magic
-•ş±»ŞD“Qé£º
+æœƒè¢«è½‰æ›ç‚ºï¼š
 
 <ul>
 <li><p>Bird</p></li>
 <li><p>Magic</p></li>
 </ul>
-Çå†Îí—Ä¿¿ÉÒÔ°üº¬¶à‚€¶ÎÂä£¬Ã¿‚€í—Ä¿ÏÂµÄ¶ÎÂä¶¼±Øíš¿sÅÅ4‚€¿Õ°×»òÊÇÒ»‚€tab £º
+æ¸…å–®é …ç›®å¯ä»¥åŒ…å«å¤šå€‹æ®µè½ï¼Œæ¯å€‹é …ç›®ä¸‹çš„æ®µè½éƒ½å¿…é ˆç¸®æ’4å€‹ç©ºç™½æˆ–æ˜¯ä¸€å€‹tab ï¼š
 
 1.  This is a list item with two paragraphs. Lorem ipsum dolor
     sit amet, consectetuer adipiscing elit. Aliquam hendrerit
@@ -264,7 +659,7 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
     sit amet velit.
 
 2.  Suspendisse id sem consectetuer libero luctus adipiscing.
-Èç¹ûÄãÃ¿ĞĞ¶¼ÓĞ¿sÅÅ£¬¿´Æğí•ş¿´ºÃºÜ¶à£¬®”È»£¬ÔÙ´ÎµØ£¬Èç¹ûÄãºÜ‘Ğ¶è£¬MarkdownÒ²ÔÊÔS£º
+å¦‚æœä½ æ¯è¡Œéƒ½æœ‰ç¸®æ’ï¼Œçœ‹èµ·ä¾†æœƒçœ‹å¥½å¾ˆå¤šï¼Œç•¶ç„¶ï¼Œå†æ¬¡åœ°ï¼Œå¦‚æœä½ å¾ˆæ‡¶æƒ°ï¼ŒMarkdownä¹Ÿå…è¨±ï¼š
 
 *   This is a list item with two paragraphs.
 
@@ -273,46 +668,46 @@ only required to indent the first line. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit.
 
 *   Another item in the same list.
-Èç¹ûÒªÔÚÇå†Îí—Ä¿ƒÈ·ÅßMÒıÑÔ£¬ÄÇ>¾ÍĞèÒª¿sÅÅ£º
+å¦‚æœè¦åœ¨æ¸…å–®é …ç›®å…§æ”¾é€²å¼•è¨€ï¼Œé‚£>å°±éœ€è¦ç¸®æ’ï¼š
 
 *   A list item with a blockquote:
 
     > This is a blockquote
     > inside a list item.
-Èç¹ûÒª·Å³ÌÊ½´a…^‰KµÄÔ’£¬Ô“…^‰K¾ÍĞèÒª¿sÅÅƒÉ´Î£¬Ò²¾ÍÊÇ8‚€¿Õ°×»òÊÇƒÉ‚€tab£º
+å¦‚æœè¦æ”¾ç¨‹å¼ç¢¼å€å¡Šçš„è©±ï¼Œè©²å€å¡Šå°±éœ€è¦ç¸®æ’å…©æ¬¡ï¼Œä¹Ÿå°±æ˜¯8å€‹ç©ºç™½æˆ–æ˜¯å…©å€‹tabï¼š
 
 *   A list item with a code block:
 
         <code goes here>
-®”È»£¬í—Ä¿Çå†ÎºÜ¿ÉÄÜ•ş²»Ğ¡ĞÄ®aÉú£¬ÏñÊÇÏÂÃæß@˜ÓµÄŒ‘·¨£º
+ç•¶ç„¶ï¼Œé …ç›®æ¸…å–®å¾ˆå¯èƒ½æœƒä¸å°å¿ƒç”¢ç”Ÿï¼Œåƒæ˜¯ä¸‹é¢é€™æ¨£çš„å¯«æ³•ï¼š
 
 1986. What a great season.
-“Q¾äÔ’Õf£¬Ò²¾ÍÊÇÔÚĞĞÊ×³ö¬F”µ×Ö£­¾äüc£­¿Õ°×£¬Òª±ÜÃâß@˜ÓµÄ î›r£¬Äã¿ÉÒÔÔÚ¾äücÇ°Ãæ¼ÓÉÏ·´Ğ±¾€¡£
+æ›å¥è©±èªªï¼Œä¹Ÿå°±æ˜¯åœ¨è¡Œé¦–å‡ºç¾æ•¸å­—ï¼å¥é»ï¼ç©ºç™½ï¼Œè¦é¿å…é€™æ¨£çš„ç‹€æ³ï¼Œä½ å¯ä»¥åœ¨å¥é»å‰é¢åŠ ä¸Šåæ–œç·šã€‚
 
 1986\. What a great season.
-³ÌÊ½´a…^‰K
+ç¨‹å¼ç¢¼å€å¡Š
 
-ºÍ³ÌÊ½ÏàêPµÄŒ‘×÷»òÊÇ˜Ë»`ÕZÑÔÔ­Ê¼´aÍ¨³£•şÓĞÒÑ½›ÅÅ°æºÃµÄ³ÌÊ½´a…^‰K£¬Í¨³£ß@Ğ©…^‰KÎÒ‚ƒK²»Ï£ÍûËüÒÔÒ»°ã¶ÎÂäÎÄ¼şµÄ·½Ê½È¥ÅÅ°æ£¬¶øÊÇÕÕÔ­íµÄ˜Ó×Óï@Ê¾£¬Markdown•şÓÃ<pre>ºÍ<code>˜Ë»`í°Ñ³ÌÊ½´a…^‰K°üÆğí¡£
+å’Œç¨‹å¼ç›¸é—œçš„å¯«ä½œæˆ–æ˜¯æ¨™ç±¤èªè¨€åŸå§‹ç¢¼é€šå¸¸æœƒæœ‰å·²ç¶“æ’ç‰ˆå¥½çš„ç¨‹å¼ç¢¼å€å¡Šï¼Œé€šå¸¸é€™äº›å€å¡Šæˆ‘å€‘ä¸¦ä¸å¸Œæœ›å®ƒä»¥ä¸€èˆ¬æ®µè½æ–‡ä»¶çš„æ–¹å¼å»æ’ç‰ˆï¼Œè€Œæ˜¯ç…§åŸä¾†çš„æ¨£å­é¡¯ç¤ºï¼ŒMarkdownæœƒç”¨<pre>å’Œ<code>æ¨™ç±¤ä¾†æŠŠç¨‹å¼ç¢¼å€å¡ŠåŒ…èµ·ä¾†ã€‚
 
-ÒªÔÚMarkdownÖĞ½¨Á¢³ÌÊ½´a…^‰KºÜº††Î£¬Ö»Òªº††ÎµØ¿sÅÅ4‚€¿Õ°×»òÊÇ1‚€tab¾Í¿ÉÒÔ£¬ÀıÈç£¬ÏÂÃæµÄİ”Èë£º
+è¦åœ¨Markdownä¸­å»ºç«‹ç¨‹å¼ç¢¼å€å¡Šå¾ˆç°¡å–®ï¼Œåªè¦ç°¡å–®åœ°ç¸®æ’4å€‹ç©ºç™½æˆ–æ˜¯1å€‹tabå°±å¯ä»¥ï¼Œä¾‹å¦‚ï¼Œä¸‹é¢çš„è¼¸å…¥ï¼š
 
 This is a normal paragraph:
 
     This is a code block.
-Markdown•şŞD“Q³É£º
+Markdownæœƒè½‰æ›æˆï¼š
 
 <p>This is a normal paragraph:</p>
 
 <pre><code>This is a code block.
 </code></pre>
-ß@‚€Ã¿ĞĞÒ»ëAµÄ¿sÅÅ£¨4‚€¿Õ°×»òÊÇtab£©£¬¶¼•ş±»ÒÆ³ı£¬ÀıÈç£º
+é€™å€‹æ¯è¡Œä¸€éšçš„ç¸®æ’ï¼ˆ4å€‹ç©ºç™½æˆ–æ˜¯tabï¼‰ï¼Œéƒ½æœƒè¢«ç§»é™¤ï¼Œä¾‹å¦‚ï¼š
 
 Here is an example of AppleScript:
 
     tell application "Foo"
         beep
     end tell
-•ş±»ŞD“Qé£º
+æœƒè¢«è½‰æ›ç‚ºï¼š
 
 <p>Here is an example of AppleScript:</p>
 
@@ -320,24 +715,24 @@ Here is an example of AppleScript:
     beep
 end tell
 </code></pre>
-Ò»‚€³ÌÊ½´a…^‰K•şÒ»Ö±³ÖÀmµ½›]ÓĞ¿sÅÅµÄÄÇÒ»ĞĞ£¨»òÊÇÎÄ¼ş½YÎ²£©¡£
+ä¸€å€‹ç¨‹å¼ç¢¼å€å¡Šæœƒä¸€ç›´æŒçºŒåˆ°æ²’æœ‰ç¸®æ’çš„é‚£ä¸€è¡Œï¼ˆæˆ–æ˜¯æ–‡ä»¶çµå°¾ï¼‰ã€‚
 
-ÔÚ³ÌÊ½´a…^‰KÑeÃæ£¬&¡¢<ºÍ>•ş×Ô„ÓŞD³ÉHTMLŒów£¬ß@˜ÓµÄ·½Ê½×ŒÄã·Ç³£ÈİÒ×Ê¹ÓÃMarkdown²åÈë¹ ÀıÓÃµÄHTMLÔ­Ê¼´a£¬Ö»ĞèÒªÑ}ÑuÙNÉÏ£¬ÔÙ¼ÓÉÏ¿sÅÅ¾Í¿ÉÒÔÁË£¬Ê£ÏÂµÄ Markdown¶¼•şÍÄãÌÀí£¬ÀıÈç£º
+åœ¨ç¨‹å¼ç¢¼å€å¡Šè£¡é¢ï¼Œ&ã€<å’Œ>æœƒè‡ªå‹•è½‰æˆHTMLå¯¦é«”ï¼Œé€™æ¨£çš„æ–¹å¼è®“ä½ éå¸¸å®¹æ˜“ä½¿ç”¨Markdownæ’å…¥ç¯„ä¾‹ç”¨çš„HTMLåŸå§‹ç¢¼ï¼Œåªéœ€è¦è¤‡è£½è²¼ä¸Šï¼Œå†åŠ ä¸Šç¸®æ’å°±å¯ä»¥äº†ï¼Œå‰©ä¸‹çš„ Markdownéƒ½æœƒå¹«ä½ è™•ç†ï¼Œä¾‹å¦‚ï¼š
 
     <div class="footer">
         &copy; 2004 Foo Corporation
     </div>
-•ş±»ŞD“Qé£º
+æœƒè¢«è½‰æ›ç‚ºï¼š
 
 <pre><code>&lt;div class="footer"&gt;
     &amp;copy; 2004 Foo Corporation
 &lt;/div&gt;
 </code></pre>
-³ÌÊ½´a…^‰KÖĞ£¬Ò»°ãµÄMarkdownÕZ·¨²»•ş±»ŞD“Q£¬ÏñÊÇĞÇÌ–±ãÖ»ÊÇĞÇÌ–£¬ß@±íÊ¾Äã¿ÉÒÔºÜÈİÒ×µØÒÔMarkdownÕZ·¨×«Œ‘MarkdownÕZ·¨ÏàêPµÄÎÄ¼ş¡£
+ç¨‹å¼ç¢¼å€å¡Šä¸­ï¼Œä¸€èˆ¬çš„Markdownèªæ³•ä¸æœƒè¢«è½‰æ›ï¼Œåƒæ˜¯æ˜Ÿè™Ÿä¾¿åªæ˜¯æ˜Ÿè™Ÿï¼Œé€™è¡¨ç¤ºä½ å¯ä»¥å¾ˆå®¹æ˜“åœ°ä»¥Markdownèªæ³•æ’°å¯«Markdownèªæ³•ç›¸é—œçš„æ–‡ä»¶ã€‚
 
-·Ö¸ô¾€
+åˆ†éš”ç·š
 
-Äã¿ÉÒÔÔÚÒ»ĞĞÖĞÓÃÈı‚€»òÒÔÉÏµÄĞÇÌ–¡¢œpÌ–¡¢µ×¾€í½¨Á¢Ò»‚€·Ö¸ô¾€£¬ĞĞƒÈ²»ÄÜÓĞÆäËû–|Î÷¡£ÄãÒ²¿ÉÒÔÔÚĞÇÌ–ÖĞég²åÈë¿Õ°×¡£ÏÂÃæÃ¿·NŒ‘·¨¶¼¿ÉÒÔ½¨Á¢·Ö¸ô¾€£º
+ä½ å¯ä»¥åœ¨ä¸€è¡Œä¸­ç”¨ä¸‰å€‹æˆ–ä»¥ä¸Šçš„æ˜Ÿè™Ÿã€æ¸›è™Ÿã€åº•ç·šä¾†å»ºç«‹ä¸€å€‹åˆ†éš”ç·šï¼Œè¡Œå…§ä¸èƒ½æœ‰å…¶ä»–æ±è¥¿ã€‚ä½ ä¹Ÿå¯ä»¥åœ¨æ˜Ÿè™Ÿä¸­é–“æ’å…¥ç©ºç™½ã€‚ä¸‹é¢æ¯ç¨®å¯«æ³•éƒ½å¯ä»¥å»ºç«‹åˆ†éš”ç·šï¼š
 
 * * *
 
@@ -348,80 +743,80 @@ end tell
 - - -
 
 ---------------------------------------
-…^¶ÎÔªËØ
+å€æ®µå…ƒç´ 
 
-ßB½Y
+é€£çµ
 
-MarkdownÖ§Ô®ƒÉ·NĞÎÊ½µÄßB½YÕZ·¨£º ĞĞƒÈºÍ…¢¿¼ƒÉ·NĞÎÊ½¡£
+Markdownæ”¯æ´å…©ç¨®å½¢å¼çš„é€£çµèªæ³•ï¼š è¡Œå…§å’Œåƒè€ƒå…©ç¨®å½¢å¼ã€‚
 
-²»¹ÜÊÇÄÄÒ»·N£¬ßB½YµÄÎÄ×Ö¶¼ÊÇÓÃ[·½À¨Ì–]í˜ËÓ›¡£
+ä¸ç®¡æ˜¯å“ªä¸€ç¨®ï¼Œé€£çµçš„æ–‡å­—éƒ½æ˜¯ç”¨[æ–¹æ‹¬è™Ÿ]ä¾†æ¨™è¨˜ã€‚
 
-Òª½¨Á¢Ò»‚€ĞĞƒÈĞÎÊ½µÄßB½Y£¬Ö»ÒªÔÚ·½‰KÀ¨Ì–ááÃæñRÉÏ½ÓÖøÀ¨Ì–K²åÈë¾WÖ·ßB½Y¼´¿É£¬Èç¹ûÄãß€ÏëÒª¼ÓÉÏßB½YµÄtitleÎÄ×Ö£¬Ö»ÒªÔÚ¾WÖ·ááÃæ£¬ÓÃëpÒıÌ–°ÑtitleÎÄ×Ö°üÆğí¼´¿É£¬ÀıÈç£º
+è¦å»ºç«‹ä¸€å€‹è¡Œå…§å½¢å¼çš„é€£çµï¼Œåªè¦åœ¨æ–¹å¡Šæ‹¬è™Ÿå¾Œé¢é¦¬ä¸Šæ¥è‘—æ‹¬è™Ÿä¸¦æ’å…¥ç¶²å€é€£çµå³å¯ï¼Œå¦‚æœä½ é‚„æƒ³è¦åŠ ä¸Šé€£çµçš„titleæ–‡å­—ï¼Œåªè¦åœ¨ç¶²å€å¾Œé¢ï¼Œç”¨é›™å¼•è™ŸæŠŠtitleæ–‡å­—åŒ…èµ·ä¾†å³å¯ï¼Œä¾‹å¦‚ï¼š
 
 This is [an example](http://example.com/ "Title") inline link.
 
 [This link](http://example.net/) has no title attribute.
-•ş®aÉú£º
+æœƒç”¢ç”Ÿï¼š
 
 <p>This is <a href="http://example.com/" title="Title">
 an example</a> inline link.</p>
 
 <p><a href="http://example.net/">This link</a> has no
 title attribute.</p>
-Èç¹ûÄãÊÇÒªßB½Yµ½Í¬˜ÓÖ÷™CµÄÙYÔ´£¬Äã¿ÉÒÔÊ¹ÓÃÏàŒ¦Â·½£º
+å¦‚æœä½ æ˜¯è¦é€£çµåˆ°åŒæ¨£ä¸»æ©Ÿçš„è³‡æºï¼Œä½ å¯ä»¥ä½¿ç”¨ç›¸å°è·¯å¾‘ï¼š
 
 See my [About](/about/) page for details.
-…¢¿¼ĞÎÊ½µÄßB½YÊ¹ÓÃÁíÍâÒ»‚€·½À¨Ì–½ÓÔÚßB½YÎÄ×ÖµÄÀ¨Ì–ááÃæ£¬¶øÔÚµÚ¶ş‚€·½À¨Ì–ÑeÃæÒªÌîÈëÓÃÒÔ±æ×RßB½YµÄ˜Ë»`£º
+åƒè€ƒå½¢å¼çš„é€£çµä½¿ç”¨å¦å¤–ä¸€å€‹æ–¹æ‹¬è™Ÿæ¥åœ¨é€£çµæ–‡å­—çš„æ‹¬è™Ÿå¾Œé¢ï¼Œè€Œåœ¨ç¬¬äºŒå€‹æ–¹æ‹¬è™Ÿè£¡é¢è¦å¡«å…¥ç”¨ä»¥è¾¨è­˜é€£çµçš„æ¨™ç±¤ï¼š
 
 This is [an example][id] reference-style link.
-ÄãÒ²¿ÉÒÔßx“ñĞÔµØÔÚƒÉ‚€·½À¨Ì–ÖĞég¼ÓÉÏ¿Õ°×£º
+ä½ ä¹Ÿå¯ä»¥é¸æ“‡æ€§åœ°åœ¨å…©å€‹æ–¹æ‹¬è™Ÿä¸­é–“åŠ ä¸Šç©ºç™½ï¼š
 
 This is [an example] [id] reference-style link.
-½ÓÖø£¬ÔÚÎÄ¼şµÄÈÎÒâÌ£¬Äã¿ÉÒÔ°Ñß@‚€˜Ë»`µÄßB½YƒÈÈİ¶¨Áx³öí£º
+æ¥è‘—ï¼Œåœ¨æ–‡ä»¶çš„ä»»æ„è™•ï¼Œä½ å¯ä»¥æŠŠé€™å€‹æ¨™ç±¤çš„é€£çµå…§å®¹å®šç¾©å‡ºä¾†ï¼š
 
 [id]: http://example.com/  "Optional Title Here"
-ßB½Y¶¨ÁxµÄĞÎÊ½é£º
+é€£çµå®šç¾©çš„å½¢å¼ç‚ºï¼š
 
-·½À¨Ì–£¬ÑeÃæİ”ÈëßB½YµÄ±æ×RÓÃ˜Ë»`
-½ÓÖøÒ»‚€Ã°Ì–
-½ÓÖøÒ»‚€ÒÔÉÏµÄ¿Õ°×»ò tab
-½ÓÖøßB½YµÄ¾WÖ·
-ßx“ñĞÔµØ½ÓÖø title ƒÈÈİ£¬¿ÉÒÔÓÃ†ÎÒıÌ–¡¢ëpÒıÌ–»òÊÇÀ¨»¡°üÖø
-ÏÂÃæß@Èı·NßB½YµÄ¶¨Áx¶¼ÊÇÏàÍ¬£º
+æ–¹æ‹¬è™Ÿï¼Œè£¡é¢è¼¸å…¥é€£çµçš„è¾¨è­˜ç”¨æ¨™ç±¤
+æ¥è‘—ä¸€å€‹å†’è™Ÿ
+æ¥è‘—ä¸€å€‹ä»¥ä¸Šçš„ç©ºç™½æˆ– tab
+æ¥è‘—é€£çµçš„ç¶²å€
+é¸æ“‡æ€§åœ°æ¥è‘— title å…§å®¹ï¼Œå¯ä»¥ç”¨å–®å¼•è™Ÿã€é›™å¼•è™Ÿæˆ–æ˜¯æ‹¬å¼§åŒ…è‘—
+ä¸‹é¢é€™ä¸‰ç¨®é€£çµçš„å®šç¾©éƒ½æ˜¯ç›¸åŒï¼š
 
 [foo]: http://example.com/  "Optional Title Here"
 [foo]: http://example.com/  'Optional Title Here'
 [foo]: http://example.com/  (Optional Title Here)
-Õˆ×¢Òâ£ºÓĞÒ»‚€ÒÑÖªµÄ†–î}ÊÇMarkdown.pl 1.0.1•şºöÂÔ†ÎÒıÌ–°üÆğíµÄßB½Ytitle¡£
+è«‹æ³¨æ„ï¼šæœ‰ä¸€å€‹å·²çŸ¥çš„å•é¡Œæ˜¯Markdown.pl 1.0.1æœƒå¿½ç•¥å–®å¼•è™ŸåŒ…èµ·ä¾†çš„é€£çµtitleã€‚
 
-ßB½Y¾WÖ·Ò²¿ÉÒÔÓÃ·½À¨Ì–°üÆğí£º
+é€£çµç¶²å€ä¹Ÿå¯ä»¥ç”¨æ–¹æ‹¬è™ŸåŒ…èµ·ä¾†ï¼š
 
 [id]: <http://example.com/>  "Optional Title Here"
-ÄãÒ²¿ÉÒÔ°ÑtitleŒÙĞÔ·Åµ½ÏÂÒ»ĞĞ£¬Ò²¿ÉÒÔ¼ÓÒ»Ğ©¿sÅÅ£¬¾WÖ·Ì«éLµÄÔ’£¬ß@˜Ó•ş±Èİ^ºÃ¿´£º
+ä½ ä¹Ÿå¯ä»¥æŠŠtitleå±¬æ€§æ”¾åˆ°ä¸‹ä¸€è¡Œï¼Œä¹Ÿå¯ä»¥åŠ ä¸€äº›ç¸®æ’ï¼Œç¶²å€å¤ªé•·çš„è©±ï¼Œé€™æ¨£æœƒæ¯”è¼ƒå¥½çœ‹ï¼š
 
 [id]: http://example.com/longish/path/to/resource/here
     "Optional Title Here"
-¾WÖ·¶¨ÁxÖ»ÓĞÔÚ®aÉúßB½YµÄ•rºòÓÃµ½£¬K²»•şÖ±½Ó³ö¬FÔÚÎÄ¼şÖ®ÖĞ¡£
+ç¶²å€å®šç¾©åªæœ‰åœ¨ç”¢ç”Ÿé€£çµçš„æ™‚å€™ç”¨åˆ°ï¼Œä¸¦ä¸æœƒç›´æ¥å‡ºç¾åœ¨æ–‡ä»¶ä¹‹ä¸­ã€‚
 
-ßB½Y±æ×R˜Ë»`¿ÉÒÔÓĞ×ÖÄ¸¡¢”µ×Ö¡¢¿Õ°×ºÍ˜Ëüc·ûÌ–£¬µ«ÊÇK²»…^·Ö´óĞ¡Œ‘£¬Òò´ËÏÂÃæƒÉ‚€ßB½YÊÇÒ»˜ÓµÄ£º
+é€£çµè¾¨è­˜æ¨™ç±¤å¯ä»¥æœ‰å­—æ¯ã€æ•¸å­—ã€ç©ºç™½å’Œæ¨™é»ç¬¦è™Ÿï¼Œä½†æ˜¯ä¸¦ä¸å€åˆ†å¤§å°å¯«ï¼Œå› æ­¤ä¸‹é¢å…©å€‹é€£çµæ˜¯ä¸€æ¨£çš„ï¼š
 
 [link text][a]
 [link text][A]
-îAÔOµÄßB½Y˜Ë»`¹¦ÄÜ×ŒÄã¿ÉÒÔÊ¡ÂÔÖ¸¶¨ßB½Y˜Ë»`£¬ß@·NÇéĞÎÏÂ£¬ßB½Y˜Ë»`ºÍßB½YÎÄ×Ö•şÒ•éÏàÍ¬£¬ÒªÓÃîAÔOßB½Y˜Ë»`Ö»ÒªÔÚßB½YÎÄ×ÖááÃæ¼ÓÉÏÒ»‚€¿ÕµÄ·½À¨Ì–£¬Èç¹ûÄãÒª×Œ¡¸Google¡¹ßB½Yµ½google.com£¬Äã¿ÉÒÔº†»¯³É£º
+é è¨­çš„é€£çµæ¨™ç±¤åŠŸèƒ½è®“ä½ å¯ä»¥çœç•¥æŒ‡å®šé€£çµæ¨™ç±¤ï¼Œé€™ç¨®æƒ…å½¢ä¸‹ï¼Œé€£çµæ¨™ç±¤å’Œé€£çµæ–‡å­—æœƒè¦–ç‚ºç›¸åŒï¼Œè¦ç”¨é è¨­é€£çµæ¨™ç±¤åªè¦åœ¨é€£çµæ–‡å­—å¾Œé¢åŠ ä¸Šä¸€å€‹ç©ºçš„æ–¹æ‹¬è™Ÿï¼Œå¦‚æœä½ è¦è®“ã€ŒGoogleã€é€£çµåˆ°google.comï¼Œä½ å¯ä»¥ç°¡åŒ–æˆï¼š
 
 [Google][]
-È»áá¶¨ÁxßB½YƒÈÈİ£º
+ç„¶å¾Œå®šç¾©é€£çµå…§å®¹ï¼š
 
 [Google]: http://google.com/
-ÓÉì¶ßB½YÎÄ×Ö¿ÉÄÜ°üº¬¿Õ°×£¬ËùÒÔß@·Nº†»¯µÄ˜Ë»`ƒÈÒ²¿ÉÒÔ°üº¬¶à‚€ÎÄ×Ö£º
+ç”±æ–¼é€£çµæ–‡å­—å¯èƒ½åŒ…å«ç©ºç™½ï¼Œæ‰€ä»¥é€™ç¨®ç°¡åŒ–çš„æ¨™ç±¤å…§ä¹Ÿå¯ä»¥åŒ…å«å¤šå€‹æ–‡å­—ï¼š
 
 Visit [Daring Fireball][] for more information.
-È»áá½ÓÖø¶¨ÁxßB½Y£º
+ç„¶å¾Œæ¥è‘—å®šç¾©é€£çµï¼š
 
 [Daring Fireball]: http://daringfireball.net/
-ßB½YµÄ¶¨Áx¿ÉÒÔ·ÅÔÚÎÄ¼şÖĞµÄÈÎºÎÒ»‚€µØ·½£¬ÎÒ±Èİ^Æ«ºÃÖ±½Ó·ÅÔÚßB½Y³ö¬F¶ÎÂäµÄááÃæ£¬ÄãÒ²¿ÉÒÔ°ÑËü·ÅÔÚÎÄ¼ş×îááÃæ£¬¾ÍÏñÊÇÔ]½âÒ»˜Ó¡£
+é€£çµçš„å®šç¾©å¯ä»¥æ”¾åœ¨æ–‡ä»¶ä¸­çš„ä»»ä½•ä¸€å€‹åœ°æ–¹ï¼Œæˆ‘æ¯”è¼ƒåå¥½ç›´æ¥æ”¾åœ¨é€£çµå‡ºç¾æ®µè½çš„å¾Œé¢ï¼Œä½ ä¹Ÿå¯ä»¥æŠŠå®ƒæ”¾åœ¨æ–‡ä»¶æœ€å¾Œé¢ï¼Œå°±åƒæ˜¯è¨»è§£ä¸€æ¨£ã€‚
 
-ÏÂÃæÊÇÒ»‚€…¢¿¼Ê½ßB½YµÄ¹ Àı£º
+ä¸‹é¢æ˜¯ä¸€å€‹åƒè€ƒå¼é€£çµçš„ç¯„ä¾‹ï¼š
 
 I get 10 times more traffic from [Google] [1] than from
 [Yahoo] [2] or [MSN] [3].
@@ -429,7 +824,7 @@ I get 10 times more traffic from [Google] [1] than from
   [1]: http://google.com/        "Google"
   [2]: http://search.yahoo.com/  "Yahoo Search"
   [3]: http://search.msn.com/    "MSN Search"
-Èç¹û¸Ä³ÉÓÃßB½YÃû·QµÄ·½Ê½Œ‘£º
+å¦‚æœæ”¹æˆç”¨é€£çµåç¨±çš„æ–¹å¼å¯«ï¼š
 
 I get 10 times more traffic from [Google][] than from
 [Yahoo][] or [MSN][].
@@ -437,24 +832,24 @@ I get 10 times more traffic from [Google][] than from
   [google]: http://google.com/        "Google"
   [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
   [msn]:    http://search.msn.com/    "MSN Search"
-ÉÏÃæƒÉ·NŒ‘·¨¶¼•ş®aÉúÏÂÃæµÄHTML¡£
+ä¸Šé¢å…©ç¨®å¯«æ³•éƒ½æœƒç”¢ç”Ÿä¸‹é¢çš„HTMLã€‚
 
 <p>I get 10 times more traffic from <a href="http://google.com/"
 title="Google">Google</a> than from
 <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a>
 or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
-ÏÂÃæÊÇÓÃĞĞƒÈĞÎÊ½Œ‘µÄÍ¬˜ÓÒ»¶ÎƒÈÈİµÄMarkdownÎÄ¼ş£¬Ìá¹©×÷é±Èİ^Ö®ÓÃ£º
+ä¸‹é¢æ˜¯ç”¨è¡Œå…§å½¢å¼å¯«çš„åŒæ¨£ä¸€æ®µå…§å®¹çš„Markdownæ–‡ä»¶ï¼Œæä¾›ä½œç‚ºæ¯”è¼ƒä¹‹ç”¨ï¼š
 
 I get 10 times more traffic from [Google](http://google.com/ "Google")
 than from [Yahoo](http://search.yahoo.com/ "Yahoo Search") or
 [MSN](http://search.msn.com/ "MSN Search").
-…¢¿¼Ê½µÄßB½YÆäŒÖØüc²»ÔÚì¶Ëü±Èİ^ºÃŒ‘£¬¶øÊÇËü±Èİ^ºÃ×x£¬±Èİ^Ò»ÏÂÉÏÃæµÄ¹ Àı£¬Ê¹ÓÃ…¢¿¼Ê½µÄÎÄÕÂ±¾ÉíÖ»ÓĞ 81 ‚€×ÖÔª£¬µ«ÊÇÓÃĞĞƒÈĞÎÊ½µÄßB½Y…s•şÔö¼Óµ½176‚€×ÖÔª£¬Èç¹ûÊÇÓÃ¼ƒHTML¸ñÊ½íŒ‘£¬•şÓĞ234‚€×ÖÔª£¬ÔÚHTML¸ñÊ½ÖĞ£¬˜Ë»`±ÈÎÄ×Öß€Òª¶à¡£
+åƒè€ƒå¼çš„é€£çµå…¶å¯¦é‡é»ä¸åœ¨æ–¼å®ƒæ¯”è¼ƒå¥½å¯«ï¼Œè€Œæ˜¯å®ƒæ¯”è¼ƒå¥½è®€ï¼Œæ¯”è¼ƒä¸€ä¸‹ä¸Šé¢çš„ç¯„ä¾‹ï¼Œä½¿ç”¨åƒè€ƒå¼çš„æ–‡ç« æœ¬èº«åªæœ‰ 81 å€‹å­—å…ƒï¼Œä½†æ˜¯ç”¨è¡Œå…§å½¢å¼çš„é€£çµå»æœƒå¢åŠ åˆ°176å€‹å­—å…ƒï¼Œå¦‚æœæ˜¯ç”¨ç´”HTMLæ ¼å¼ä¾†å¯«ï¼Œæœƒæœ‰234å€‹å­—å…ƒï¼Œåœ¨HTMLæ ¼å¼ä¸­ï¼Œæ¨™ç±¤æ¯”æ–‡å­—é‚„è¦å¤šã€‚
 
-Ê¹ÓÃMarkdownµÄ…¢¿¼Ê½ßB½Y£¬¿ÉÒÔ×ŒÎÄ¼ş¸üÏñÊÇgÓ[Æ÷×îáá®aÉúµÄ½Y¹û£¬×ŒÄã¿ÉÒÔ°ÑÒ»Ğ©˜ËÓ›ÏàêPµÄÙYÓÒÆµ½¶ÎÂäÎÄ×ÖÖ®Íâ£¬Äã¾Í¿ÉÒÔÔö¼ÓßB½Y¶ø²»×ŒÎÄÕÂµÄé†×x¸ĞÓX±»´ò”à¡£
+ä½¿ç”¨Markdownçš„åƒè€ƒå¼é€£çµï¼Œå¯ä»¥è®“æ–‡ä»¶æ›´åƒæ˜¯ç€è¦½å™¨æœ€å¾Œç”¢ç”Ÿçš„çµæœï¼Œè®“ä½ å¯ä»¥æŠŠä¸€äº›æ¨™è¨˜ç›¸é—œçš„è³‡è¨Šç§»åˆ°æ®µè½æ–‡å­—ä¹‹å¤–ï¼Œä½ å°±å¯ä»¥å¢åŠ é€£çµè€Œä¸è®“æ–‡ç« çš„é–±è®€æ„Ÿè¦ºè¢«æ‰“æ–·ã€‚
 
-ŠÕ{
+å¼·èª¿
 
-MarkdownÊ¹ÓÃĞÇÌ–£¨*£©ºÍµ×¾€£¨_£©×÷é˜ËÓ›ŠÕ{×ÖÔ~µÄ·ûÌ–£¬±»*»ò_°ü‡úµÄ×ÖÔ~•ş±»ŞD³ÉÓÃ<em>˜Ë»`°ü‡ú£¬ÓÃƒÉ‚€*»ò_°üÆğíµÄÔ’£¬„t•ş±»ŞD³É<strong>£¬ÀıÈç£º
+Markdownä½¿ç”¨æ˜Ÿè™Ÿï¼ˆ*ï¼‰å’Œåº•ç·šï¼ˆ_ï¼‰ä½œç‚ºæ¨™è¨˜å¼·èª¿å­—è©çš„ç¬¦è™Ÿï¼Œè¢«*æˆ–_åŒ…åœçš„å­—è©æœƒè¢«è½‰æˆç”¨<em>æ¨™ç±¤åŒ…åœï¼Œç”¨å…©å€‹*æˆ–_åŒ…èµ·ä¾†çš„è©±ï¼Œå‰‡æœƒè¢«è½‰æˆ<strong>ï¼Œä¾‹å¦‚ï¼š
 
 *single asterisks*
 
@@ -463,7 +858,7 @@ _single underscores_
 **double asterisks**
 
 __double underscores__
-•şŞD³É£º
+æœƒè½‰æˆï¼š
 
 <em>single asterisks</em>
 
@@ -472,120 +867,120 @@ __double underscores__
 <strong>double asterisks</strong>
 
 <strong>double underscores</strong>
-Äã¿ÉÒÔëS±ãÓÃÄãÏ²šgµÄ˜ÓÊ½£¬Î¨Ò»µÄÏŞÖÆÊÇ£¬ÄãÓÃÊ²üN·ûÌ–é_†¢˜Ë»`£¬¾ÍÒªÓÃÊ²üN·ûÌ–½YÊø¡£
+ä½ å¯ä»¥éš¨ä¾¿ç”¨ä½ å–œæ­¡çš„æ¨£å¼ï¼Œå”¯ä¸€çš„é™åˆ¶æ˜¯ï¼Œä½ ç”¨ä»€éº¼ç¬¦è™Ÿé–‹å•Ÿæ¨™ç±¤ï¼Œå°±è¦ç”¨ä»€éº¼ç¬¦è™ŸçµæŸã€‚
 
-ŠÕ{Ò²¿ÉÒÔÖ±½Ó²åÔÚÎÄ×ÖÖĞég£º
+å¼·èª¿ä¹Ÿå¯ä»¥ç›´æ¥æ’åœ¨æ–‡å­—ä¸­é–“ï¼š
 
 un*frigging*believable
-µ«ÊÇÈç¹ûÄãµÄ*ºÍ_ƒÉß…¶¼ÓĞ¿Õ°×µÄÔ’£¬Ëü‚ƒ¾ÍÖ»•ş±»®”³ÉÆÕÍ¨µÄ·ûÌ–¡£
+ä½†æ˜¯å¦‚æœä½ çš„*å’Œ_å…©é‚Šéƒ½æœ‰ç©ºç™½çš„è©±ï¼Œå®ƒå€‘å°±åªæœƒè¢«ç•¶æˆæ™®é€šçš„ç¬¦è™Ÿã€‚
 
-Èç¹ûÒªÔÚÎÄ×ÖÇ°ááÖ±½Ó²åÈëÆÕÍ¨µÄĞÇÌ–»òµ×¾€£¬Äã¿ÉÒÔÓÃ·´Ğ±¾€£º
+å¦‚æœè¦åœ¨æ–‡å­—å‰å¾Œç›´æ¥æ’å…¥æ™®é€šçš„æ˜Ÿè™Ÿæˆ–åº•ç·šï¼Œä½ å¯ä»¥ç”¨åæ–œç·šï¼š
 
 \*this text is surrounded by literal asterisks\*
-³ÌÊ½´a
+ç¨‹å¼ç¢¼
 
-Èç¹ûÒª˜ËÓ›Ò»Ğ¡¶ÎĞĞƒÈ³ÌÊ½´a£¬Äã¿ÉÒÔÓÃ·´ÒıÌ–°ÑËü°üÆğí£¨`£©£¬ÀıÈç£º
+å¦‚æœè¦æ¨™è¨˜ä¸€å°æ®µè¡Œå…§ç¨‹å¼ç¢¼ï¼Œä½ å¯ä»¥ç”¨åå¼•è™ŸæŠŠå®ƒåŒ…èµ·ä¾†ï¼ˆ`ï¼‰ï¼Œä¾‹å¦‚ï¼š
 
 Use the `printf()` function.
-•ş®aÉú£º
+æœƒç”¢ç”Ÿï¼š
 
 <p>Use the <code>printf()</code> function.</p>
-Èç¹ûÒªÔÚ³ÌÊ½´a…^¶ÎƒÈ²åÈë·´ÒıÌ–£¬Äã¿ÉÒÔÓÃ¶à‚€·´ÒıÌ–íé_†¢ºÍ½YÊø³ÌÊ½´a…^¶Î£º
+å¦‚æœè¦åœ¨ç¨‹å¼ç¢¼å€æ®µå…§æ’å…¥åå¼•è™Ÿï¼Œä½ å¯ä»¥ç”¨å¤šå€‹åå¼•è™Ÿä¾†é–‹å•Ÿå’ŒçµæŸç¨‹å¼ç¢¼å€æ®µï¼š
 
 ``There is a literal backtick (`) here.``
-ß@¶ÎÕZ·¨•ş®aÉú£º
+é€™æ®µèªæ³•æœƒç”¢ç”Ÿï¼š
 
 <p><code>There is a literal backtick (`) here.</code></p>
-³ÌÊ½´a…^¶ÎµÄÆğÊ¼ºÍ½YÊø¶Ë¶¼¿ÉÒÔ·ÅÈëÒ»‚€¿Õ°×£¬ÆğÊ¼¶ËááÃæÒ»‚€£¬½YÊø¶ËÇ°ÃæÒ»‚€£¬ß@˜ÓÄã¾Í¿ÉÒÔÔÚ…^¶ÎµÄÒ»é_Ê¼¾Í²åÈë·´ÒıÌ–£º
+ç¨‹å¼ç¢¼å€æ®µçš„èµ·å§‹å’ŒçµæŸç«¯éƒ½å¯ä»¥æ”¾å…¥ä¸€å€‹ç©ºç™½ï¼Œèµ·å§‹ç«¯å¾Œé¢ä¸€å€‹ï¼ŒçµæŸç«¯å‰é¢ä¸€å€‹ï¼Œé€™æ¨£ä½ å°±å¯ä»¥åœ¨å€æ®µçš„ä¸€é–‹å§‹å°±æ’å…¥åå¼•è™Ÿï¼š
 
 A single backtick in a code span: `` ` ``
 
 A backtick-delimited string in a code span: `` `foo` ``
-•ş®aÉú£º
+æœƒç”¢ç”Ÿï¼š
 
 <p>A single backtick in a code span: <code>`</code></p>
 
 <p>A backtick-delimited string in a code span: <code>`foo`</code></p>
-ÔÚ³ÌÊ½´a…^¶ÎƒÈ£¬&ºÍ·½À¨Ì–¶¼•ş±»ŞD³ÉHTMLŒów£¬ß@˜Ó•ş±Èİ^ÈİÒ×²åÈëHTMLÔ­Ê¼´a£¬Markdown•ş°ÑÏÂÃæß@¶Î£º
+åœ¨ç¨‹å¼ç¢¼å€æ®µå…§ï¼Œ&å’Œæ–¹æ‹¬è™Ÿéƒ½æœƒè¢«è½‰æˆHTMLå¯¦é«”ï¼Œé€™æ¨£æœƒæ¯”è¼ƒå®¹æ˜“æ’å…¥HTMLåŸå§‹ç¢¼ï¼ŒMarkdownæœƒæŠŠä¸‹é¢é€™æ®µï¼š
 
 Please don't use any `<blink>` tags.
-ŞDé£º
+è½‰ç‚ºï¼š
 
 <p>Please don't use any <code>&lt;blink&gt;</code> tags.</p>
-ÄãÒ²¿ÉÒÔß@˜ÓŒ‘£º
+ä½ ä¹Ÿå¯ä»¥é€™æ¨£å¯«ï¼š
 
 `&#8212;` is the decimal-encoded equivalent of `&mdash;`.
-ÒÔ®aÉú£º
+ä»¥ç”¢ç”Ÿï¼š
 
 <p><code>&amp;#8212;</code> is the decimal-encoded
 equivalent of <code>&amp;mdash;</code>.</p>
-ˆDÆ¬
+åœ–ç‰‡
 
-ºÜÃ÷ï@µØ£¬ÒªÔÚ¼ƒÎÄ×Ö‘ªÓÃÖĞÔOÓ‹Ò»‚€¡¸×ÔÈ»¡¹µÄÕZ·¨í²åÈëˆDÆ¬ÊÇÓĞÒ»¶¨ëy¶ÈµÄ¡£
+å¾ˆæ˜é¡¯åœ°ï¼Œè¦åœ¨ç´”æ–‡å­—æ‡‰ç”¨ä¸­è¨­è¨ˆä¸€å€‹ã€Œè‡ªç„¶ã€çš„èªæ³•ä¾†æ’å…¥åœ–ç‰‡æ˜¯æœ‰ä¸€å®šé›£åº¦çš„ã€‚
 
-MarkdownÊ¹ÓÃÒ»·NºÍßB½YºÜÏàËÆµÄÕZ·¨í˜ËÓ›ˆDÆ¬£¬Í¬˜ÓÒ²ÔÊÔSƒÉ·N˜ÓÊ½£ºĞĞƒÈºÍ…¢¿¼¡£
+Markdownä½¿ç”¨ä¸€ç¨®å’Œé€£çµå¾ˆç›¸ä¼¼çš„èªæ³•ä¾†æ¨™è¨˜åœ–ç‰‡ï¼ŒåŒæ¨£ä¹Ÿå…è¨±å…©ç¨®æ¨£å¼ï¼šè¡Œå…§å’Œåƒè€ƒã€‚
 
-ĞĞƒÈˆDÆ¬µÄÕZ·¨¿´ÆğíÏñÊÇ£º
+è¡Œå…§åœ–ç‰‡çš„èªæ³•çœ‹èµ·ä¾†åƒæ˜¯ï¼š
 
 ![Alt text](/path/to/img.jpg)
 
 ![Alt text](/path/to/img.jpg "Optional title")
-Ô”¼š”¢ÊöÈçÏÂ£º
+è©³ç´°æ•˜è¿°å¦‚ä¸‹ï¼š
 
-Ò»‚€ó@‡@Ì–!
-½ÓÖøÒ»‚€·½À¨Ì–£¬ÑeÃæ·ÅÉÏˆDÆ¬µÄÌæ´úÎÄ×Ö
-½ÓÖøÒ»‚€ÆÕÍ¨À¨Ì–£¬ÑeÃæ·ÅÉÏˆDÆ¬µÄ¾WÖ·£¬×îááß€¿ÉÒÔÓÃÒıÌ–°ü×¡K¼ÓÉÏßx“ñĞÔµÄ'title'ÎÄ×Ö¡£
-…¢¿¼Ê½µÄˆDÆ¬ÕZ·¨„téLµÃÏñß@˜Ó£º
+ä¸€å€‹é©šå˜†è™Ÿ!
+æ¥è‘—ä¸€å€‹æ–¹æ‹¬è™Ÿï¼Œè£¡é¢æ”¾ä¸Šåœ–ç‰‡çš„æ›¿ä»£æ–‡å­—
+æ¥è‘—ä¸€å€‹æ™®é€šæ‹¬è™Ÿï¼Œè£¡é¢æ”¾ä¸Šåœ–ç‰‡çš„ç¶²å€ï¼Œæœ€å¾Œé‚„å¯ä»¥ç”¨å¼•è™ŸåŒ…ä½ä¸¦åŠ ä¸Šé¸æ“‡æ€§çš„'title'æ–‡å­—ã€‚
+åƒè€ƒå¼çš„åœ–ç‰‡èªæ³•å‰‡é•·å¾—åƒé€™æ¨£ï¼š
 
 ![Alt text][id]
-¡¸id¡¹ÊÇˆDÆ¬…¢¿¼µÄÃû·Q£¬ˆDÆ¬…¢¿¼µÄ¶¨Áx·½Ê½„tºÍßB½Y…¢¿¼Ò»˜Ó£º
+ã€Œidã€æ˜¯åœ–ç‰‡åƒè€ƒçš„åç¨±ï¼Œåœ–ç‰‡åƒè€ƒçš„å®šç¾©æ–¹å¼å‰‡å’Œé€£çµåƒè€ƒä¸€æ¨£ï¼š
 
 [id]: url/to/image  "Optional title attribute"
-µ½Ä¿Ç°éÖ¹£¬ Markdownß€›]ÓĞŞk·¨Ö¸¶¨ˆDÆ¬µÄŒ’¸ß£¬Èç¹ûÄãĞèÒªµÄÔ’£¬Äã¿ÉÒÔÊ¹ÓÃÆÕÍ¨µÄ<img>˜Ë»`¡£
+åˆ°ç›®å‰ç‚ºæ­¢ï¼Œ Markdowné‚„æ²’æœ‰è¾¦æ³•æŒ‡å®šåœ–ç‰‡çš„å¯¬é«˜ï¼Œå¦‚æœä½ éœ€è¦çš„è©±ï¼Œä½ å¯ä»¥ä½¿ç”¨æ™®é€šçš„<img>æ¨™ç±¤ã€‚
 
-ÆäËû
+å…¶ä»–
 
-×Ô„ÓßB½Y
+è‡ªå‹•é€£çµ
 
-MarkdownÖ§Ô®±Èİ^º†¶ÌµÄ×Ô„ÓßB½YĞÎÊ½íÌÀí¾WÖ·ºÍëŠ×Óà]¼şĞÅÏä£¬Ö»ÒªÊÇÓÃ·½À¨Ì–°üÆğí£¬Markdown¾Í•ş×Ô„Ó°ÑËüŞD³ÉßB½Y£¬ßB½YµÄÎÄ×Ö¾ÍºÍßB½YÎ»ÖÃÒ»˜Ó£¬ÀıÈç£º
+Markdownæ”¯æ´æ¯”è¼ƒç°¡çŸ­çš„è‡ªå‹•é€£çµå½¢å¼ä¾†è™•ç†ç¶²å€å’Œé›»å­éƒµä»¶ä¿¡ç®±ï¼Œåªè¦æ˜¯ç”¨æ–¹æ‹¬è™ŸåŒ…èµ·ä¾†ï¼ŒMarkdownå°±æœƒè‡ªå‹•æŠŠå®ƒè½‰æˆé€£çµï¼Œé€£çµçš„æ–‡å­—å°±å’Œé€£çµä½ç½®ä¸€æ¨£ï¼Œä¾‹å¦‚ï¼š
 
 <http://example.com/>
-Markdown•şŞDé£º
+Markdownæœƒè½‰ç‚ºï¼š
 
 <a href="http://example.com/">http://example.com/</a>
-×Ô„ÓµÄà]¼şßB½YÒ²ºÜîËÆ£¬Ö»ÊÇMarkdown•şÏÈ×öÒ»‚€¾´aŞD“QµÄß^³Ì£¬°ÑÎÄ×Ö×ÖÔªŞD³É16ßMÎ»´aµÄHTMLŒów£¬ß@˜ÓµÄ¸ñÊ½¿ÉÒÔ»ìÏıÒ»Ğ©²»ºÃµÄĞÅÏäµØÖ·ÊÕ¼¯™CÆ÷ÈË£¬ÀıÈç£º
+è‡ªå‹•çš„éƒµä»¶é€£çµä¹Ÿå¾ˆé¡ä¼¼ï¼Œåªæ˜¯Markdownæœƒå…ˆåšä¸€å€‹ç·¨ç¢¼è½‰æ›çš„éç¨‹ï¼ŒæŠŠæ–‡å­—å­—å…ƒè½‰æˆ16é€²ä½ç¢¼çš„HTMLå¯¦é«”ï¼Œé€™æ¨£çš„æ ¼å¼å¯ä»¥æ··æ·†ä¸€äº›ä¸å¥½çš„ä¿¡ç®±åœ°å€æ”¶é›†æ©Ÿå™¨äººï¼Œä¾‹å¦‚ï¼š
 
 <address@example.com>
-Markdown•şŞD³É£º
+Markdownæœƒè½‰æˆï¼š
 
 <a href="&#x6D;&#x61;i&#x6C;&#x74;&#x6F;:&#x61;&#x64;&#x64;&#x72;&#x65;
 &#115;&#115;&#64;&#101;&#120;&#x61;&#109;&#x70;&#x6C;e&#x2E;&#99;&#111;
 &#109;">&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#64;&#101;&#120;&#x61;
 &#109;&#x70;&#x6C;e&#x2E;&#99;&#111;&#109;</a>
-ÔÚgÓ[Æ÷ÑeÃæ£¬ß@¶Î×Ö´®•ş×ƒ³ÉÒ»‚€¿ÉÒÔüc“ôµÄ¡¸address@example.com¡¹ßB½Y¡£
+åœ¨ç€è¦½å™¨è£¡é¢ï¼Œé€™æ®µå­—ä¸²æœƒè®Šæˆä¸€å€‹å¯ä»¥é»æ“Šçš„ã€Œaddress@example.comã€é€£çµã€‚
 
-£¨ß@·N×÷·¨ëmÈ»¿ÉÒÔ»ìÏı²»ÉÙµÄ™CÆ÷ÈË£¬µ«KŸo·¨È«²¿“õÏÂí£¬²»ß^ß@˜ÓÒ²±ÈÊ²üN¶¼²»×öºÃĞ©¡£ŸoÕ“ÈçºÎ£¬¹«é_ÄãµÄĞÅÏä½K¾¿•şÒıíV¸æĞÅ¼şµÄ¡££©
+ï¼ˆé€™ç¨®ä½œæ³•é›–ç„¶å¯ä»¥æ··æ·†ä¸å°‘çš„æ©Ÿå™¨äººï¼Œä½†ä¸¦ç„¡æ³•å…¨éƒ¨æ“‹ä¸‹ä¾†ï¼Œä¸éé€™æ¨£ä¹Ÿæ¯”ä»€éº¼éƒ½ä¸åšå¥½äº›ã€‚ç„¡è«–å¦‚ä½•ï¼Œå…¬é–‹ä½ çš„ä¿¡ç®±çµ‚ç©¶æœƒå¼•ä¾†å»£å‘Šä¿¡ä»¶çš„ã€‚ï¼‰
 
-ÌøÃ“×ÖÔª
+è·³è„«å­—å…ƒ
 
-Markdown¿ÉÒÔÀûÓÃ·´Ğ±¾€í²åÈëÒ»Ğ©ÔÚÕZ·¨ÖĞÓĞÆäËûÒâÁxµÄ·ûÌ–£¬ÀıÈç£ºÈç¹ûÄãÏëÒªÓÃĞÇÌ–¼ÓÔÚÎÄ×ÖÅÔß…µÄ·½Ê½í×ö³öŠÕ{Ğ§¹û£¨µ«²»ÓÃ<em>˜Ë»`£©£¬Äã¿ÉÒÔÔÚĞÇÌ–µÄÇ°Ãæ¼ÓÉÏ·´Ğ±¾€£º
+Markdownå¯ä»¥åˆ©ç”¨åæ–œç·šä¾†æ’å…¥ä¸€äº›åœ¨èªæ³•ä¸­æœ‰å…¶ä»–æ„ç¾©çš„ç¬¦è™Ÿï¼Œä¾‹å¦‚ï¼šå¦‚æœä½ æƒ³è¦ç”¨æ˜Ÿè™ŸåŠ åœ¨æ–‡å­—æ—é‚Šçš„æ–¹å¼ä¾†åšå‡ºå¼·èª¿æ•ˆæœï¼ˆä½†ä¸ç”¨<em>æ¨™ç±¤ï¼‰ï¼Œä½ å¯ä»¥åœ¨æ˜Ÿè™Ÿçš„å‰é¢åŠ ä¸Šåæ–œç·šï¼š
 
 \*literal asterisks\*
-MarkdownÖ§Ô®ÔÚÏÂÃæß@Ğ©·ûÌ–Ç°Ãæ¼ÓÉÏ·´Ğ±¾€íÍÖú²åÈëÆÕÍ¨µÄ·ûÌ–£º
+Markdownæ”¯æ´åœ¨ä¸‹é¢é€™äº›ç¬¦è™Ÿå‰é¢åŠ ä¸Šåæ–œç·šä¾†å¹«åŠ©æ’å…¥æ™®é€šçš„ç¬¦è™Ÿï¼š
 
-\   ·´Ğ±¾€
-`   ·´ÒıÌ–
-*   ĞÇÌ–
-_   µ×¾€
-{}  ´óÀ¨Ì–
-[]  ·½À¨Ì–
-()  À¨Ì–
-#   ¾®×ÖÌ–
-+   ¼ÓÌ–
--   œpÌ–
-.   Ó¢ÎÄ¾äüc
-!   ó@‡@Ì–
-¸ĞÖx
+\   åæ–œç·š
+`   åå¼•è™Ÿ
+*   æ˜Ÿè™Ÿ
+_   åº•ç·š
+{}  å¤§æ‹¬è™Ÿ
+[]  æ–¹æ‹¬è™Ÿ
+()  æ‹¬è™Ÿ
+#   äº•å­—è™Ÿ
++   åŠ è™Ÿ
+-   æ¸›è™Ÿ
+.   è‹±æ–‡å¥é»
+!   é©šå˜†è™Ÿ
+æ„Ÿè¬
 
-¸ĞÖxleafy7382…fÖú·­×g£¬hlb¡¢RandylienÍÃ¦™¸å£¬ethantwµÄh×Ö˜ËœÊ¸ñÊ½£¨Han.css£©£¬WM»ØˆóÎÄ×ÖåeÕ`¡£
+æ„Ÿè¬leafy7382å”åŠ©ç¿»è­¯ï¼Œhlbã€Randylienå¹«å¿™æ½¤ç¨¿ï¼Œethantwçš„æ¼¢å­—æ¨™æº–æ ¼å¼ï¼ˆHan.cssï¼‰ï¼ŒWMå›å ±æ–‡å­—éŒ¯èª¤ã€‚
 
