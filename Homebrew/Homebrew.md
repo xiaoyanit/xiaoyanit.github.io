@@ -209,3 +209,52 @@ Mac 自带了很多 Shell，通过下面的命令：
 下图是有多标签页和多窗口的 iTerm2：
 
 ![](http://myblogimage.qiniudn.com/illustration%5C%E8%8F%9C%E9%B8%9F%E7%BA%A7Mac%E9%85%8D%E7%BD%AE%5CScreen%20Shot%202014-02-26%20at%205.53.11%20PM.png)
+
+
+
+##[brew安装的软件Smple](http://community.itbbs.cn/thread/21327/)##
+
+今天更新brew安装的软件，结果悲剧产生了，sourceforge.net被墙了！！
+
+我们以libpng为例进行解决，其他软件方法一样。
+
+	sh-3.2# brew upgrade
+	==> Upgrading 6 outdated packages, with result:
+	libpng 1.5.12, imagemagick 6.7.7-6, libtiff 4.0.2, pcre 8.31, lighttpd 1.4.31, wget 1.14
+	==> Upgrading libpng
+	==> Downloading http://downloads.sf.net/project/libpng/libpng15/1.5.12/libpng-1.5.12.tar.gz
+
+	curl: (56) Recv failure: Connection reset by peer
+	Error: Download failed: http://downloads.sf.net/project/libpng/libpng15/1.5.12/libpng-1.5.12.tar.gz
+
+很明显，下载软件失败，我们找另一个软件包地址把sf.net上的替换掉。
+
+执行命令：
+
+	$ brew edit libpng
+
+会提示编辑ruby源代码，编辑器是vim，内容如下。
+
+	require 'formula'
+
+	class Libpng < Formula
+	  homepage 'http://www.libpng.org/pub/png/libpng.html'
+	  #url 'http://downloads.sf.net/project/libpng/libpng15/1.5.12/libpng-1.5.12.tar.gz'
+	  url 'ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.5.12.tar.gz'
+	  sha1 'c329f3a9b720d7ae14e8205fa6e332236573704b'
+
+	  keg_only :provided_by_osx if MacOS::X11.installed?
+	
+	  def install
+    system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+    system "make install"
+	  end	
+	end	
+
+很明显我用`ftp.simplesystems.org`替换了`downloads.sf.net`的文件地址。
+接下来保存好内容，继续brew，成功！
+
+
+#[zsh 使用 安装](http://blog.csdn.net/housansan/article/details/19302371)#
+
+
