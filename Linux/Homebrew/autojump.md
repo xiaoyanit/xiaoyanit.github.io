@@ -63,3 +63,14 @@
         	mv -f $cdtf $cdqf
     	}
 	}
+
+
+
+
+##在Bash脚本里实现轻松跳转
+
+[coffee-js/languages](https://github.com/coffee-js/languages/issues/53)
+
+[jiyinyiyong/cd-link](https://github.com/jiyinyiyong/cd-link)
+
+[huyng/bashmarks](https://github.com/huyng/bashmarks)
