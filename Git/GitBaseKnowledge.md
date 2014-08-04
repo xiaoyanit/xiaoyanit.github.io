@@ -1,4 +1,4 @@
-GitÔ¶³Ì²Ù×÷Ïê½â
+Gitè¿œç¨‹æ“ä½œè¯¦è§£
 ===================
   
   
@@ -11,13 +11,29 @@ GitÔ¶³Ì²Ù×÷Ïê½â
 	*git pull
 	*git push
 
-OSChina Git ÖĞÖ¸ÄÏ
+OSChina Git ä¸­æŒ‡å—
 http://git.oschina.net/progit/
 
-Git½Ì³Ì
+Gitæ•™ç¨‹
 
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
 OSChina Git wikis
 
 http://git.oschina.net/oschina/git-osc/wikis/Home
+
+
+#Gité—®é¢˜æ“ä½œè®°å½•#
+
+####æŠ¥é”™â‘ 
+
+
+
+
+
+
+
+
+
+
+
