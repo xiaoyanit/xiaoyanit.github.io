@@ -18,6 +18,7 @@
 ####autojump 候选项过多问题：
 	
 >添加如下脚本即可
+[脚本cd-quickly.sh](https://github.com/nuoerlz/cd-quicKly/blob/master/cd-quickly.sh)
 	
 	
 	// add these lines to ~/.bashrc
