@@ -11,16 +11,14 @@ Git远程操作详解
 	*git pull
 	*git push
 
-OSChina Git 中指南
-http://git.oschina.net/progit/
+[OSChina Git 中指南](http://git.oschina.net/progit/)
 
-Git教程
 
-http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+[Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
-OSChina Git wikis
+[OSChina Git wikis](http://git.oschina.net/oschina/git-osc/wikis/Home)
 
-http://git.oschina.net/oschina/git-osc/wikis/Home
+
 
 
 #Git问题操作记录#
@@ -135,19 +133,50 @@ http://www.open-open.com/lib/view/open1341754663635.html
 [git status中文乱码](http://bbs.chinaunix.net/thread-3558872-1-1.html)
   
   
+ - - -
+  ***
+  *** 
+ - - -
+  ***
+  ***
+ - - -
+  ***
+  ***
+ - - -
+  ***
+  *** 
+ - - -
+  ***
+  ***
+ - - -
+  ***
+  ***
+##git 更新本地代码 
+  
+  - `git fetch`
+  - ...
+  - `git pull origin`
+  
+##git log 绘制日志
+  `git log --pretty=oneline --graph`
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
+##Git学习教程专题
+
+- [Git学习教程（一）：git简介](http://fsjoy.blog.51cto.com/318484/244397)
+- [Git学习教程（二）：配置和初始化](http://fsjoy.blog.51cto.com/318484/244803)
+- [Git学习教程（三）：Git工作流程](http://fsjoy.blog.51cto.com/318484/244397)
+- [Git学习教程（四）：分枝和合并](http://fsjoy.blog.51cto.com/318484/245081)
+- [Git学习教程（五）：Git标签](http://fsjoy.blog.51cto.com/318484/245106)
+- [Git学习教程（六）Git日志](http://fsjoy.blog.51cto.com/318484/245261)
+- [Git学习教程（七） Git差异比对](http://fsjoy.blog.51cto.com/318484/245465)
+- []()
+- []()
+
+
+
+
   
   
   
