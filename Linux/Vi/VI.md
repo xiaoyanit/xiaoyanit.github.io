@@ -2,6 +2,8 @@
 
 [参考博客](http://blog.163.com/iloveecho83@126/blog/static/172997525201102021242312/)
 
+![vi命令大全.pdf](https://github.com/xiaoyanit/xiaoyanit.github.io/blob/master/Linux/Vi/vi%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8.pdf?raw=true)
+
 1. 显示行号
 
 在命令行模式下输入：set nu
