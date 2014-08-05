@@ -107,10 +107,51 @@ http://www.open-open.com/lib/view/open1341754663635.html
 
 
 
+##Git for mac 中文乱码
 
+>git stataus .  
+ 然后中文乱码 
 
+		modified:   Git/vi/274\232\350\256\256\346\200\273\347\273\223.pdf 
+		
+		
+###解决方案：
+在bash提示符下输入：
 
+`git config --global core.quotepath false`
 
+######core.quotepath设为false的话，就不会对0×80以上的字符进行quote。中文显示正常。
+  - - - 
+  
+####[GIT乱码解决方案汇总](http://www.cnblogs.com/perseus/archive/2012/11/21/2781074.html)
+  
+  
+  
+####本文参考链接
+[搞定Git中文乱码、用TortoiseMerge实现Diff/Merge](http://topic.csdn.net/u/20110113/19/b0d5d506-4307-428b-a61d-7974aa66a2da.html)	  
+[MsysGit乱码与跨平台版本管理](http://topic.csdn.net/u/20110106/20/f11ef8dd-44ec-478e-b78a-73240bcdde43.html)  
+[git中文文件名、目录名乱码应该怎么解决？](http://bbs.et8.net/bbs/showthread.php?t=942185)  
+[git中文乱码解决](http://www.wangyinneng.com/git%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3/)  
+[git status中文乱码](http://bbs.chinaunix.net/thread-3558872-1-1.html)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
