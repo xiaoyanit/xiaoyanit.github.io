@@ -159,7 +159,7 @@ http://www.open-open.com/lib/view/open1341754663635.html
   
 ##git log 绘制日志
   `git log --pretty=oneline --graph`
-  
+![log日志](https://raw.githubusercontent.com/xiaoyanit/xiaoyanit.github.io/master/Git/20140805172212.png)  
   
  
 ##Git学习教程专题
@@ -176,9 +176,11 @@ http://www.open-open.com/lib/view/open1341754663635.html
 
 
 
+####[git 合并远程分支时候的操作](http://hlee.iteye.com/blog/669831)
+  
+>合并到主分支
 
-  
-  
+  `$git merge master` 
   
   
 
