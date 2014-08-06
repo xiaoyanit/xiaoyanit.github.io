@@ -74,6 +74,46 @@ com from :  [magicalboy.comgit-configuration](hhttp://magicalboy.com/git-configu
 
 
 
+##Git 命令收集<汇总表>
+- - -
+ git-branch 分支名称    
+ git-checout –b 分支名 
+ git-branch –d 分支名 (删除分支)  
+ git-branch –D 分支名 (强制删除分支)  
+ git show-branch  查看分支历史 
+ git merge  合并分支    
+git-clone  远程获取一个git库  
+git-pull  从远程获取一个git分支   
+git-push  将本地分支内容提交到远端分支  
+git-reset 库的逆转与恢复    
+git log --stat 显示被修改文件的修改统计信息，添加或删除了多少行。  
+
+>###调整显示格式
+ 
+>使用`git log --pretty=format`命令，可以将提交历史显示成你想要的格式。这里format的可选项包括：  
+>oneline，short，medium，full，fuller，email，raw。  
+>每种格式都有侧重的显示相关内容。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- - -
+
+
+
+
 
 
 ##git remote基本使用
