@@ -185,9 +185,23 @@ http://www.open-open.com/lib/view/open1341754663635.html
   
 
 
+- - -
+
+##[在GitHub上管理项目](http://www.cnblogs.com/mengdd/p/3447464.html)
 
 
+设置开发流
+######push方法1：
 
+　　现在如果想直接Push这个develop分支上的内容到github
 
+　　`git push -u origin`
 
+　　如果是新建分支第一次push，会提示：
 
+    fatal: The current branch develop has no upstream branch. 
+	To push the current branch and set the remote as upstream, use
+	git push --set-upstream origin develop
+　　输入这行命令，然后输入用户名和密码，就push成功了。
+
+　　以后的push就只需要输入 `git push origin`
