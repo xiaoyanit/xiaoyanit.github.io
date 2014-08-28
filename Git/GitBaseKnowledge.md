@@ -176,16 +176,71 @@ http://www.open-open.com/lib/view/open1341754663635.html
 
 
 
-
+##Git detached from origin/macOS)
+  
+  ![detached from ...]()  
+  [参考资料](http://hi.barretlee.com/2014/04/30/switch-branch-in-git/)  
   
   
   
+`git branch -va`
   
+  可以查看本地+远程分支列表  
+       
+    * macOS                        51e70f8 remove older web source
+    master                       fa5d764 [ahead 1, behind 3] Create README.md
+    origin/master                acd1dc6 add source
+    windowXP                     b9389f1 Signed-off-by: xiaoyanit <xiaoyanitmail@gmail.com>
+    remotes/origin/HEAD          -> origin/master
+    remotes/origin/macOS         51e70f8 remove older web source
+    remotes/origin/master        043d640 Create CNAME
+    remotes/origin/origin/master acd1dc6 add source
+    remotes/origin/windowXP      b9389f1 Signed-off-by: xiaoyanit <xiaoyanitmail@gmail.com>
+  
+  
+  此时`git branch branch_name` 是不起作用的
 
+`git checkout -b macOS`  
+  
+  -b 的意思是 base，以当前分支为 base，新建一个名叫 `macOS` 的分支，这里当然也可以使用其他的命名。此时再执行 git branch 就能看到：
 
+    * macOS
+    master
+    origin/master
+    windowXP  
+至此，分支切换成功。
 
+##git版本回退操作
 
+  [参考资料](http://hi.barretlee.com/2014/04/30/switch-branch-in-git/)
+  
+  git 回退总结收集：
+  
+  	- git checkout commit-id(SHA)
+  	- git reset hard commit-id(SHA)
+  	
+这句命令可以回退到指定版本。不过上传的时候要注意了，如果你是：
+  
+  `git push -u master origin`
+  
+  肯定会出现这样的错误提示：  
+           
+	error: failed to push some refs to 'https://github.com/barretlee/barretlee.github.io.git'
+	hint: Updates were rejected because the tip of your current branch is behind
+	hint: its remote counterpart. Integrate the remote changes (e.g.
+	hint: 'git pull ...') before pushing again.
+	hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  
+  原因是你本地版本要落后于服务器上的版本（git reset 回退了嘛），如果想覆盖服务器上版本，应该加 -f ，强制提交，
+  
+  `git push -u master origin -f`
+  
+不过这样的操作要谨慎了，先把修改的位置备份（拿出来，复制到文件夹外），完成上述操作之后再复制回来处理。 （完）  
+  
+  
+##资料收集
 
-
-
-
+[在 git 中使用 pull 的常用方法 ](http://zhaojunde1976.blog.163.com/blog/static/12199866820132275511791/)
+  
+  
+  
